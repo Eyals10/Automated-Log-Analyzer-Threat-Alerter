@@ -1,0 +1,131 @@
+{
+  "report": {
+    "generated_at": "2026-10-12T10:01:19+00:00",
+    "tool": "ssh_bruteforce_detector",
+    "source_files": [
+      "sample_logs/sample_auth.log"
+    ],
+    "threshold": 5,
+    "window_minutes": null,
+    "lines_scanned": 1052,
+    "failed_logins_total": 501,
+    "source_ips_with_failures": 7,
+    "flagged_ip_count": 5
+  },
+  "flagged_ips": [
+    {
+      "severity": "CRITICAL",
+      "ip": "198.51.100.9",
+      "failed_attempts": 25,
+      "invalid_user_attempts": 0,
+      "unique_usernames": 1,
+      "top_usernames": "root(25)",
+      "first_seen": "2026-10-11T14:41:02",
+      "last_seen": "2026-10-11T14:42:34",
+      "flagged_at": "2026-10-11T14:41:15",
+      "successful_logins_after_flag": [
+        {
+          "timestamp": "2026-10-11T14:42:49",
+          "user": "root",
+          "method": "password"
+        }
+      ],
+      "country": "Private/Reserved",
+      "country_code": "",
+      "asn": "",
+      "org": "",
+      "usernames": {
+        "root": 25
+      }
+    },
+    {
+      "severity": "HIGH",
+      "ip": "203.0.113.45",
+      "failed_attempts": 360,
+      "invalid_user_attempts": 0,
+      "unique_usernames": 1,
+      "top_usernames": "root(360)",
+      "first_seen": "2026-10-11T02:13:02",
+      "last_seen": "2026-10-11T02:47:54",
+      "flagged_at": "2026-10-11T02:13:16",
+      "successful_logins_after_flag": [],
+      "country": "Private/Reserved",
+      "country_code": "",
+      "asn": "",
+      "org": "",
+      "usernames": {
+        "root": 360
+      }
+    },
+    {
+      "severity": "HIGH",
+      "ip": "198.51.100.77",
+      "failed_attempts": 91,
+      "invalid_user_attempts": 40,
+      "unique_usernames": 14,
+      "top_usernames": "postgres(15), hadoop(12), minecraft(10), user(8), pi(8)",
+      "first_seen": "2026-10-11T05:02:00",
+      "last_seen": "2026-10-11T05:13:10",
+      "flagged_at": "2026-10-11T05:02:27",
+      "successful_logins_after_flag": [],
+      "country": "Private/Reserved",
+      "country_code": "",
+      "asn": "",
+      "org": "",
+      "usernames": {
+        "postgres": 15,
+        "hadoop": 12,
+        "minecraft": 10,
+        "user": 8,
+        "pi": 8,
+        "deploy": 6,
+        "support": 5,
+        "guest": 5,
+        "oracle": 5,
+        "test": 5,
+        "admin": 4,
+        "ubuntu": 3,
+        "git": 3,
+        "ftpuser": 2
+      }
+    },
+    {
+      "severity": "MEDIUM",
+      "ip": "2001:db8::bad:1",
+      "failed_attempts": 12,
+      "invalid_user_attempts": 4,
+      "unique_usernames": 1,
+      "top_usernames": "ubuntu(12)",
+      "first_seen": "2026-10-11T18:05:00",
+      "last_seen": "2026-10-11T18:07:03",
+      "flagged_at": "2026-10-11T18:05:43",
+      "successful_logins_after_flag": [],
+      "country": "Private/Reserved",
+      "country_code": "",
+      "asn": "",
+      "org": "",
+      "usernames": {
+        "ubuntu": 12
+      }
+    },
+    {
+      "severity": "MEDIUM",
+      "ip": "192.0.2.10",
+      "failed_attempts": 8,
+      "invalid_user_attempts": 0,
+      "unique_usernames": 1,
+      "top_usernames": "root(8)",
+      "first_seen": "2026-10-11T01:00:02",
+      "last_seen": "2026-10-11T07:57:02",
+      "flagged_at": "2026-10-11T05:06:02",
+      "successful_logins_after_flag": [],
+      "country": "Private/Reserved",
+      "country_code": "",
+      "asn": "",
+      "org": "",
+      "usernames": {
+        "root": 8
+      }
+    }
+  ]
+}

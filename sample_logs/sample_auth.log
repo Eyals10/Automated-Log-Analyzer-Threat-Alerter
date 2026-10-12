@@ -1,0 +1,1052 @@
+Oct 11 00:00:00 web-prod-01 CRON[20512]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 00:00:01 web-prod-01 CRON[20512]: pam_unix(cron:session): session closed for user root
+Oct 11 00:17:00 web-prod-01 CRON[20517]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 00:17:01 web-prod-01 CRON[20517]: pam_unix(cron:session): session closed for user root
+Oct 11 00:34:00 web-prod-01 CRON[20520]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 00:34:01 web-prod-01 CRON[20520]: pam_unix(cron:session): session closed for user root
+Oct 11 00:51:00 web-prod-01 CRON[20527]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 00:51:01 web-prod-01 CRON[20527]: pam_unix(cron:session): session closed for user root
+Oct 11 00:56:00 web-prod-01 sudo:     sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 11 00:56:00 web-prod-01 sshd[20892]: Connection closed by 203.0.113.37 port 49628 [preauth]
+Oct 11 00:56:00 web-prod-01 sshd[20898]: Received disconnect from 192.0.2.66 port 53120:11: Bye Bye [preauth]
+Oct 11 01:00:00 web-prod-01 sshd[20416]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.10  user=root
+Oct 11 01:00:02 web-prod-01 sshd[20416]: Failed password for root from 192.0.2.10 port 62519 ssh2
+Oct 11 01:00:02 web-prod-01 sshd[20416]: Connection closed by authenticating user root 192.0.2.10 port 62519 [preauth]
+Oct 11 01:08:00 web-prod-01 CRON[20534]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 01:08:01 web-prod-01 CRON[20534]: pam_unix(cron:session): session closed for user root
+Oct 11 01:25:00 web-prod-01 CRON[20536]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 01:25:01 web-prod-01 CRON[20536]: pam_unix(cron:session): session closed for user root
+Oct 11 01:42:00 web-prod-01 CRON[20539]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 01:42:01 web-prod-01 CRON[20539]: pam_unix(cron:session): session closed for user root
+Oct 11 01:59:00 web-prod-01 sshd[20417]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.10  user=root
+Oct 11 01:59:00 web-prod-01 CRON[20544]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 01:59:01 web-prod-01 CRON[20544]: pam_unix(cron:session): session closed for user root
+Oct 11 01:59:02 web-prod-01 sshd[20417]: Failed password for root from 192.0.2.10 port 32200 ssh2
+Oct 11 01:59:02 web-prod-01 sshd[20417]: Connection closed by authenticating user root 192.0.2.10 port 32200 [preauth]
+Oct 11 02:13:00 web-prod-01 sshd[20005]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:13:02 web-prod-01 sshd[20005]: Failed password for root from 203.0.113.45 port 53976 ssh2
+Oct 11 02:13:06 web-prod-01 sshd[20005]: Failed password for root from 203.0.113.45 port 53976 ssh2
+Oct 11 02:13:10 web-prod-01 sshd[20005]: Failed password for root from 203.0.113.45 port 53976 ssh2
+Oct 11 02:13:14 web-prod-01 sshd[20005]: Failed password for root from 203.0.113.45 port 53976 ssh2
+Oct 11 02:13:16 web-prod-01 sshd[20005]: Failed password for root from 203.0.113.45 port 53976 ssh2
+Oct 11 02:13:19 web-prod-01 sshd[20005]: Failed password for root from 203.0.113.45 port 53976 ssh2
+Oct 11 02:13:19 web-prod-01 sshd[20005]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 53976 ssh2 [preauth]
+Oct 11 02:13:19 web-prod-01 sshd[20005]: Disconnecting authenticating user root 203.0.113.45 port 53976: Too many authentication failures [preauth]
+Oct 11 02:13:19 web-prod-01 sshd[20005]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:13:48 web-prod-01 sshd[20008]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:13:50 web-prod-01 sshd[20008]: Failed password for root from 203.0.113.45 port 50161 ssh2
+Oct 11 02:13:53 web-prod-01 sshd[20008]: Failed password for root from 203.0.113.45 port 50161 ssh2
+Oct 11 02:13:57 web-prod-01 sshd[20008]: Failed password for root from 203.0.113.45 port 50161 ssh2
+Oct 11 02:13:59 web-prod-01 sshd[20008]: Failed password for root from 203.0.113.45 port 50161 ssh2
+Oct 11 02:14:03 web-prod-01 sshd[20008]: Failed password for root from 203.0.113.45 port 50161 ssh2
+Oct 11 02:14:06 web-prod-01 sshd[20008]: Failed password for root from 203.0.113.45 port 50161 ssh2
+Oct 11 02:14:06 web-prod-01 sshd[20008]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 50161 ssh2 [preauth]
+Oct 11 02:14:06 web-prod-01 sshd[20008]: Disconnecting authenticating user root 203.0.113.45 port 50161: Too many authentication failures [preauth]
+Oct 11 02:14:06 web-prod-01 sshd[20008]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:14:17 web-prod-01 sshd[20014]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:14:19 web-prod-01 sshd[20014]: Failed password for root from 203.0.113.45 port 56131 ssh2
+Oct 11 02:14:29 web-prod-01 sshd[20014]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 56131 ssh2]
+Oct 11 02:14:29 web-prod-01 sshd[20014]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 56131 ssh2 [preauth]
+Oct 11 02:14:29 web-prod-01 sshd[20014]: Disconnecting authenticating user root 203.0.113.45 port 56131: Too many authentication failures [preauth]
+Oct 11 02:14:29 web-prod-01 sshd[20014]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:14:38 web-prod-01 sshd[20020]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:14:40 web-prod-01 sshd[20020]: Failed password for root from 203.0.113.45 port 52813 ssh2
+Oct 11 02:14:43 web-prod-01 sshd[20020]: Failed password for root from 203.0.113.45 port 52813 ssh2
+Oct 11 02:14:46 web-prod-01 sshd[20020]: Failed password for root from 203.0.113.45 port 52813 ssh2
+Oct 11 02:14:50 web-prod-01 sshd[20020]: Failed password for root from 203.0.113.45 port 52813 ssh2
+Oct 11 02:14:53 web-prod-01 sshd[20020]: Failed password for root from 203.0.113.45 port 52813 ssh2
+Oct 11 02:14:57 web-prod-01 sshd[20020]: Failed password for root from 203.0.113.45 port 52813 ssh2
+Oct 11 02:14:57 web-prod-01 sshd[20020]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 52813 ssh2 [preauth]
+Oct 11 02:14:57 web-prod-01 sshd[20020]: Disconnecting authenticating user root 203.0.113.45 port 52813: Too many authentication failures [preauth]
+Oct 11 02:14:57 web-prod-01 sshd[20020]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:15:03 web-prod-01 sshd[20025]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:15:05 web-prod-01 sshd[20025]: Failed password for root from 203.0.113.45 port 37768 ssh2
+Oct 11 02:15:08 web-prod-01 sshd[20025]: Failed password for root from 203.0.113.45 port 37768 ssh2
+Oct 11 02:15:10 web-prod-01 sshd[20025]: Failed password for root from 203.0.113.45 port 37768 ssh2
+Oct 11 02:15:12 web-prod-01 sshd[20025]: Failed password for root from 203.0.113.45 port 37768 ssh2
+Oct 11 02:15:15 web-prod-01 sshd[20025]: Failed password for root from 203.0.113.45 port 37768 ssh2
+Oct 11 02:15:19 web-prod-01 sshd[20025]: Failed password for root from 203.0.113.45 port 37768 ssh2
+Oct 11 02:15:19 web-prod-01 sshd[20025]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 37768 ssh2 [preauth]
+Oct 11 02:15:19 web-prod-01 sshd[20025]: Disconnecting authenticating user root 203.0.113.45 port 37768: Too many authentication failures [preauth]
+Oct 11 02:15:19 web-prod-01 sshd[20025]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:15:53 web-prod-01 sshd[20032]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:15:55 web-prod-01 sshd[20032]: Failed password for root from 203.0.113.45 port 43171 ssh2
+Oct 11 02:15:59 web-prod-01 sshd[20032]: Failed password for root from 203.0.113.45 port 43171 ssh2
+Oct 11 02:16:00 web-prod-01 CRON[20549]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 02:16:01 web-prod-01 sshd[20032]: Failed password for root from 203.0.113.45 port 43171 ssh2
+Oct 11 02:16:01 web-prod-01 CRON[20549]: pam_unix(cron:session): session closed for user root
+Oct 11 02:16:05 web-prod-01 sshd[20032]: Failed password for root from 203.0.113.45 port 43171 ssh2
+Oct 11 02:16:09 web-prod-01 sshd[20032]: Failed password for root from 203.0.113.45 port 43171 ssh2
+Oct 11 02:16:13 web-prod-01 sshd[20032]: Failed password for root from 203.0.113.45 port 43171 ssh2
+Oct 11 02:16:13 web-prod-01 sshd[20032]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 43171 ssh2 [preauth]
+Oct 11 02:16:13 web-prod-01 sshd[20032]: Disconnecting authenticating user root 203.0.113.45 port 43171: Too many authentication failures [preauth]
+Oct 11 02:16:13 web-prod-01 sshd[20032]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:16:20 web-prod-01 sshd[20038]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:16:22 web-prod-01 sshd[20038]: Failed password for root from 203.0.113.45 port 33527 ssh2
+Oct 11 02:16:32 web-prod-01 sshd[20038]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 33527 ssh2]
+Oct 11 02:16:32 web-prod-01 sshd[20038]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 33527 ssh2 [preauth]
+Oct 11 02:16:32 web-prod-01 sshd[20038]: Disconnecting authenticating user root 203.0.113.45 port 33527: Too many authentication failures [preauth]
+Oct 11 02:16:32 web-prod-01 sshd[20038]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:16:38 web-prod-01 sshd[20040]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:16:40 web-prod-01 sshd[20040]: Failed password for root from 203.0.113.45 port 36854 ssh2
+Oct 11 02:16:43 web-prod-01 sshd[20040]: Failed password for root from 203.0.113.45 port 36854 ssh2
+Oct 11 02:16:45 web-prod-01 sshd[20040]: Failed password for root from 203.0.113.45 port 36854 ssh2
+Oct 11 02:16:48 web-prod-01 sshd[20040]: Failed password for root from 203.0.113.45 port 36854 ssh2
+Oct 11 02:16:52 web-prod-01 sshd[20040]: Failed password for root from 203.0.113.45 port 36854 ssh2
+Oct 11 02:16:56 web-prod-01 sshd[20040]: Failed password for root from 203.0.113.45 port 36854 ssh2
+Oct 11 02:16:56 web-prod-01 sshd[20040]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 36854 ssh2 [preauth]
+Oct 11 02:16:56 web-prod-01 sshd[20040]: Disconnecting authenticating user root 203.0.113.45 port 36854: Too many authentication failures [preauth]
+Oct 11 02:16:56 web-prod-01 sshd[20040]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:17:21 web-prod-01 sshd[20045]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:17:23 web-prod-01 sshd[20045]: Failed password for root from 203.0.113.45 port 51862 ssh2
+Oct 11 02:17:33 web-prod-01 sshd[20045]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 51862 ssh2]
+Oct 11 02:17:33 web-prod-01 sshd[20045]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 51862 ssh2 [preauth]
+Oct 11 02:17:33 web-prod-01 sshd[20045]: Disconnecting authenticating user root 203.0.113.45 port 51862: Too many authentication failures [preauth]
+Oct 11 02:17:33 web-prod-01 sshd[20045]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:18:05 web-prod-01 sshd[20047]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:18:07 web-prod-01 sshd[20047]: Failed password for root from 203.0.113.45 port 33003 ssh2
+Oct 11 02:18:11 web-prod-01 sshd[20047]: Failed password for root from 203.0.113.45 port 33003 ssh2
+Oct 11 02:18:15 web-prod-01 sshd[20047]: Failed password for root from 203.0.113.45 port 33003 ssh2
+Oct 11 02:18:19 web-prod-01 sshd[20047]: Failed password for root from 203.0.113.45 port 33003 ssh2
+Oct 11 02:18:22 web-prod-01 sshd[20047]: Failed password for root from 203.0.113.45 port 33003 ssh2
+Oct 11 02:18:24 web-prod-01 sshd[20047]: Failed password for root from 203.0.113.45 port 33003 ssh2
+Oct 11 02:18:24 web-prod-01 sshd[20047]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 33003 ssh2 [preauth]
+Oct 11 02:18:24 web-prod-01 sshd[20047]: Disconnecting authenticating user root 203.0.113.45 port 33003: Too many authentication failures [preauth]
+Oct 11 02:18:24 web-prod-01 sshd[20047]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:18:40 web-prod-01 sshd[20052]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:18:42 web-prod-01 sshd[20052]: Failed password for root from 203.0.113.45 port 42123 ssh2
+Oct 11 02:18:46 web-prod-01 sshd[20052]: Failed password for root from 203.0.113.45 port 42123 ssh2
+Oct 11 02:18:48 web-prod-01 sshd[20052]: Failed password for root from 203.0.113.45 port 42123 ssh2
+Oct 11 02:18:52 web-prod-01 sshd[20052]: Failed password for root from 203.0.113.45 port 42123 ssh2
+Oct 11 02:18:55 web-prod-01 sshd[20052]: Failed password for root from 203.0.113.45 port 42123 ssh2
+Oct 11 02:18:59 web-prod-01 sshd[20052]: Failed password for root from 203.0.113.45 port 42123 ssh2
+Oct 11 02:18:59 web-prod-01 sshd[20052]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 42123 ssh2 [preauth]
+Oct 11 02:18:59 web-prod-01 sshd[20052]: Disconnecting authenticating user root 203.0.113.45 port 42123: Too many authentication failures [preauth]
+Oct 11 02:18:59 web-prod-01 sshd[20052]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:19:33 web-prod-01 sshd[20053]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:19:35 web-prod-01 sshd[20053]: Failed password for root from 203.0.113.45 port 64229 ssh2
+Oct 11 02:19:38 web-prod-01 sshd[20053]: Failed password for root from 203.0.113.45 port 64229 ssh2
+Oct 11 02:19:42 web-prod-01 sshd[20053]: Failed password for root from 203.0.113.45 port 64229 ssh2
+Oct 11 02:19:46 web-prod-01 sshd[20053]: Failed password for root from 203.0.113.45 port 64229 ssh2
+Oct 11 02:19:50 web-prod-01 sshd[20053]: Failed password for root from 203.0.113.45 port 64229 ssh2
+Oct 11 02:19:53 web-prod-01 sshd[20053]: Failed password for root from 203.0.113.45 port 64229 ssh2
+Oct 11 02:19:53 web-prod-01 sshd[20053]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 64229 ssh2 [preauth]
+Oct 11 02:19:53 web-prod-01 sshd[20053]: Disconnecting authenticating user root 203.0.113.45 port 64229: Too many authentication failures [preauth]
+Oct 11 02:19:53 web-prod-01 sshd[20053]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:20:33 web-prod-01 sshd[20059]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:20:35 web-prod-01 sshd[20059]: Failed password for root from 203.0.113.45 port 46861 ssh2
+Oct 11 02:20:38 web-prod-01 sshd[20059]: Failed password for root from 203.0.113.45 port 46861 ssh2
+Oct 11 02:20:40 web-prod-01 sshd[20059]: Failed password for root from 203.0.113.45 port 46861 ssh2
+Oct 11 02:20:44 web-prod-01 sshd[20059]: Failed password for root from 203.0.113.45 port 46861 ssh2
+Oct 11 02:20:46 web-prod-01 sshd[20059]: Failed password for root from 203.0.113.45 port 46861 ssh2
+Oct 11 02:20:48 web-prod-01 sshd[20059]: Failed password for root from 203.0.113.45 port 46861 ssh2
+Oct 11 02:20:48 web-prod-01 sshd[20059]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 46861 ssh2 [preauth]
+Oct 11 02:20:48 web-prod-01 sshd[20059]: Disconnecting authenticating user root 203.0.113.45 port 46861: Too many authentication failures [preauth]
+Oct 11 02:20:48 web-prod-01 sshd[20059]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:21:03 web-prod-01 sshd[20060]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:21:05 web-prod-01 sshd[20060]: Failed password for root from 203.0.113.45 port 42574 ssh2
+Oct 11 02:21:15 web-prod-01 sshd[20060]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 42574 ssh2]
+Oct 11 02:21:15 web-prod-01 sshd[20060]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 42574 ssh2 [preauth]
+Oct 11 02:21:15 web-prod-01 sshd[20060]: Disconnecting authenticating user root 203.0.113.45 port 42574: Too many authentication failures [preauth]
+Oct 11 02:21:15 web-prod-01 sshd[20060]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:21:48 web-prod-01 sshd[20067]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:21:50 web-prod-01 sshd[20067]: Failed password for root from 203.0.113.45 port 46583 ssh2
+Oct 11 02:21:52 web-prod-01 sshd[20067]: Failed password for root from 203.0.113.45 port 46583 ssh2
+Oct 11 02:21:56 web-prod-01 sshd[20067]: Failed password for root from 203.0.113.45 port 46583 ssh2
+Oct 11 02:21:58 web-prod-01 sshd[20067]: Failed password for root from 203.0.113.45 port 46583 ssh2
+Oct 11 02:22:01 web-prod-01 sshd[20067]: Failed password for root from 203.0.113.45 port 46583 ssh2
+Oct 11 02:22:04 web-prod-01 sshd[20067]: Failed password for root from 203.0.113.45 port 46583 ssh2
+Oct 11 02:22:04 web-prod-01 sshd[20067]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 46583 ssh2 [preauth]
+Oct 11 02:22:04 web-prod-01 sshd[20067]: Disconnecting authenticating user root 203.0.113.45 port 46583: Too many authentication failures [preauth]
+Oct 11 02:22:04 web-prod-01 sshd[20067]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:22:11 web-prod-01 sshd[20073]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:22:13 web-prod-01 sshd[20073]: Failed password for root from 203.0.113.45 port 40195 ssh2
+Oct 11 02:22:23 web-prod-01 sshd[20073]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 40195 ssh2]
+Oct 11 02:22:23 web-prod-01 sshd[20073]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 40195 ssh2 [preauth]
+Oct 11 02:22:23 web-prod-01 sshd[20073]: Disconnecting authenticating user root 203.0.113.45 port 40195: Too many authentication failures [preauth]
+Oct 11 02:22:23 web-prod-01 sshd[20073]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:22:31 web-prod-01 sshd[20076]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:22:33 web-prod-01 sshd[20076]: Failed password for root from 203.0.113.45 port 54932 ssh2
+Oct 11 02:22:35 web-prod-01 sshd[20076]: Failed password for root from 203.0.113.45 port 54932 ssh2
+Oct 11 02:22:37 web-prod-01 sshd[20076]: Failed password for root from 203.0.113.45 port 54932 ssh2
+Oct 11 02:22:40 web-prod-01 sshd[20076]: Failed password for root from 203.0.113.45 port 54932 ssh2
+Oct 11 02:22:44 web-prod-01 sshd[20076]: Failed password for root from 203.0.113.45 port 54932 ssh2
+Oct 11 02:22:48 web-prod-01 sshd[20076]: Failed password for root from 203.0.113.45 port 54932 ssh2
+Oct 11 02:22:48 web-prod-01 sshd[20076]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 54932 ssh2 [preauth]
+Oct 11 02:22:48 web-prod-01 sshd[20076]: Disconnecting authenticating user root 203.0.113.45 port 54932: Too many authentication failures [preauth]
+Oct 11 02:22:48 web-prod-01 sshd[20076]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:23:09 web-prod-01 sshd[20078]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:23:11 web-prod-01 sshd[20078]: Failed password for root from 203.0.113.45 port 38921 ssh2
+Oct 11 02:23:14 web-prod-01 sshd[20078]: Failed password for root from 203.0.113.45 port 38921 ssh2
+Oct 11 02:23:17 web-prod-01 sshd[20078]: Failed password for root from 203.0.113.45 port 38921 ssh2
+Oct 11 02:23:21 web-prod-01 sshd[20078]: Failed password for root from 203.0.113.45 port 38921 ssh2
+Oct 11 02:23:24 web-prod-01 sshd[20078]: Failed password for root from 203.0.113.45 port 38921 ssh2
+Oct 11 02:23:28 web-prod-01 sshd[20078]: Failed password for root from 203.0.113.45 port 38921 ssh2
+Oct 11 02:23:28 web-prod-01 sshd[20078]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 38921 ssh2 [preauth]
+Oct 11 02:23:28 web-prod-01 sshd[20078]: Disconnecting authenticating user root 203.0.113.45 port 38921: Too many authentication failures [preauth]
+Oct 11 02:23:28 web-prod-01 sshd[20078]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:23:49 web-prod-01 sshd[20084]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:23:51 web-prod-01 sshd[20084]: Failed password for root from 203.0.113.45 port 51872 ssh2
+Oct 11 02:24:01 web-prod-01 sshd[20084]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 51872 ssh2]
+Oct 11 02:24:01 web-prod-01 sshd[20084]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 51872 ssh2 [preauth]
+Oct 11 02:24:01 web-prod-01 sshd[20084]: Disconnecting authenticating user root 203.0.113.45 port 51872: Too many authentication failures [preauth]
+Oct 11 02:24:01 web-prod-01 sshd[20084]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:24:31 web-prod-01 sshd[20091]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:24:33 web-prod-01 sshd[20091]: Failed password for root from 203.0.113.45 port 57363 ssh2
+Oct 11 02:24:35 web-prod-01 sshd[20091]: Failed password for root from 203.0.113.45 port 57363 ssh2
+Oct 11 02:24:39 web-prod-01 sshd[20091]: Failed password for root from 203.0.113.45 port 57363 ssh2
+Oct 11 02:24:42 web-prod-01 sshd[20091]: Failed password for root from 203.0.113.45 port 57363 ssh2
+Oct 11 02:24:46 web-prod-01 sshd[20091]: Failed password for root from 203.0.113.45 port 57363 ssh2
+Oct 11 02:24:50 web-prod-01 sshd[20091]: Failed password for root from 203.0.113.45 port 57363 ssh2
+Oct 11 02:24:50 web-prod-01 sshd[20091]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 57363 ssh2 [preauth]
+Oct 11 02:24:50 web-prod-01 sshd[20091]: Disconnecting authenticating user root 203.0.113.45 port 57363: Too many authentication failures [preauth]
+Oct 11 02:24:50 web-prod-01 sshd[20091]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:25:15 web-prod-01 sshd[20096]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:25:17 web-prod-01 sshd[20096]: Failed password for root from 203.0.113.45 port 42590 ssh2
+Oct 11 02:25:27 web-prod-01 sshd[20096]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 42590 ssh2]
+Oct 11 02:25:27 web-prod-01 sshd[20096]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 42590 ssh2 [preauth]
+Oct 11 02:25:27 web-prod-01 sshd[20096]: Disconnecting authenticating user root 203.0.113.45 port 42590: Too many authentication failures [preauth]
+Oct 11 02:25:27 web-prod-01 sshd[20096]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:25:59 web-prod-01 sshd[20101]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:26:01 web-prod-01 sshd[20101]: Failed password for root from 203.0.113.45 port 50652 ssh2
+Oct 11 02:26:11 web-prod-01 sshd[20101]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 50652 ssh2]
+Oct 11 02:26:11 web-prod-01 sshd[20101]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 50652 ssh2 [preauth]
+Oct 11 02:26:11 web-prod-01 sshd[20101]: Disconnecting authenticating user root 203.0.113.45 port 50652: Too many authentication failures [preauth]
+Oct 11 02:26:11 web-prod-01 sshd[20101]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:26:41 web-prod-01 sshd[20103]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:26:43 web-prod-01 sshd[20103]: Failed password for root from 203.0.113.45 port 50006 ssh2
+Oct 11 02:26:46 web-prod-01 sshd[20103]: Failed password for root from 203.0.113.45 port 50006 ssh2
+Oct 11 02:26:50 web-prod-01 sshd[20103]: Failed password for root from 203.0.113.45 port 50006 ssh2
+Oct 11 02:26:53 web-prod-01 sshd[20103]: Failed password for root from 203.0.113.45 port 50006 ssh2
+Oct 11 02:26:57 web-prod-01 sshd[20103]: Failed password for root from 203.0.113.45 port 50006 ssh2
+Oct 11 02:27:00 web-prod-01 sshd[20103]: Failed password for root from 203.0.113.45 port 50006 ssh2
+Oct 11 02:27:00 web-prod-01 sshd[20103]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 50006 ssh2 [preauth]
+Oct 11 02:27:00 web-prod-01 sshd[20103]: Disconnecting authenticating user root 203.0.113.45 port 50006: Too many authentication failures [preauth]
+Oct 11 02:27:00 web-prod-01 sshd[20103]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:27:14 web-prod-01 sshd[20106]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:27:16 web-prod-01 sshd[20106]: Failed password for root from 203.0.113.45 port 45513 ssh2
+Oct 11 02:27:19 web-prod-01 sshd[20106]: Failed password for root from 203.0.113.45 port 45513 ssh2
+Oct 11 02:27:23 web-prod-01 sshd[20106]: Failed password for root from 203.0.113.45 port 45513 ssh2
+Oct 11 02:27:25 web-prod-01 sshd[20106]: Failed password for root from 203.0.113.45 port 45513 ssh2
+Oct 11 02:27:28 web-prod-01 sshd[20106]: Failed password for root from 203.0.113.45 port 45513 ssh2
+Oct 11 02:27:32 web-prod-01 sshd[20106]: Failed password for root from 203.0.113.45 port 45513 ssh2
+Oct 11 02:27:32 web-prod-01 sshd[20106]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 45513 ssh2 [preauth]
+Oct 11 02:27:32 web-prod-01 sshd[20106]: Disconnecting authenticating user root 203.0.113.45 port 45513: Too many authentication failures [preauth]
+Oct 11 02:27:32 web-prod-01 sshd[20106]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:27:37 web-prod-01 sshd[20113]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:27:39 web-prod-01 sshd[20113]: Failed password for root from 203.0.113.45 port 48036 ssh2
+Oct 11 02:27:49 web-prod-01 sshd[20113]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 48036 ssh2]
+Oct 11 02:27:49 web-prod-01 sshd[20113]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 48036 ssh2 [preauth]
+Oct 11 02:27:49 web-prod-01 sshd[20113]: Disconnecting authenticating user root 203.0.113.45 port 48036: Too many authentication failures [preauth]
+Oct 11 02:27:49 web-prod-01 sshd[20113]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:28:25 web-prod-01 sshd[20118]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:28:27 web-prod-01 sshd[20118]: Failed password for root from 203.0.113.45 port 55477 ssh2
+Oct 11 02:28:29 web-prod-01 sshd[20118]: Failed password for root from 203.0.113.45 port 55477 ssh2
+Oct 11 02:28:31 web-prod-01 sshd[20118]: Failed password for root from 203.0.113.45 port 55477 ssh2
+Oct 11 02:28:35 web-prod-01 sshd[20118]: Failed password for root from 203.0.113.45 port 55477 ssh2
+Oct 11 02:28:39 web-prod-01 sshd[20118]: Failed password for root from 203.0.113.45 port 55477 ssh2
+Oct 11 02:28:42 web-prod-01 sshd[20118]: Failed password for root from 203.0.113.45 port 55477 ssh2
+Oct 11 02:28:42 web-prod-01 sshd[20118]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 55477 ssh2 [preauth]
+Oct 11 02:28:42 web-prod-01 sshd[20118]: Disconnecting authenticating user root 203.0.113.45 port 55477: Too many authentication failures [preauth]
+Oct 11 02:28:42 web-prod-01 sshd[20118]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:28:59 web-prod-01 sshd[20119]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:29:01 web-prod-01 sshd[20119]: Failed password for root from 203.0.113.45 port 45926 ssh2
+Oct 11 02:29:04 web-prod-01 sshd[20119]: Failed password for root from 203.0.113.45 port 45926 ssh2
+Oct 11 02:29:06 web-prod-01 sshd[20119]: Failed password for root from 203.0.113.45 port 45926 ssh2
+Oct 11 02:29:09 web-prod-01 sshd[20119]: Failed password for root from 203.0.113.45 port 45926 ssh2
+Oct 11 02:29:13 web-prod-01 sshd[20119]: Failed password for root from 203.0.113.45 port 45926 ssh2
+Oct 11 02:29:15 web-prod-01 sshd[20119]: Failed password for root from 203.0.113.45 port 45926 ssh2
+Oct 11 02:29:15 web-prod-01 sshd[20119]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 45926 ssh2 [preauth]
+Oct 11 02:29:15 web-prod-01 sshd[20119]: Disconnecting authenticating user root 203.0.113.45 port 45926: Too many authentication failures [preauth]
+Oct 11 02:29:15 web-prod-01 sshd[20119]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:29:42 web-prod-01 sshd[20122]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:29:44 web-prod-01 sshd[20122]: Failed password for root from 203.0.113.45 port 36747 ssh2
+Oct 11 02:29:48 web-prod-01 sshd[20122]: Failed password for root from 203.0.113.45 port 36747 ssh2
+Oct 11 02:29:52 web-prod-01 sshd[20122]: Failed password for root from 203.0.113.45 port 36747 ssh2
+Oct 11 02:29:54 web-prod-01 sshd[20122]: Failed password for root from 203.0.113.45 port 36747 ssh2
+Oct 11 02:29:58 web-prod-01 sshd[20122]: Failed password for root from 203.0.113.45 port 36747 ssh2
+Oct 11 02:30:02 web-prod-01 sshd[20122]: Failed password for root from 203.0.113.45 port 36747 ssh2
+Oct 11 02:30:02 web-prod-01 sshd[20122]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 36747 ssh2 [preauth]
+Oct 11 02:30:02 web-prod-01 sshd[20122]: Disconnecting authenticating user root 203.0.113.45 port 36747: Too many authentication failures [preauth]
+Oct 11 02:30:02 web-prod-01 sshd[20122]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:30:09 web-prod-01 sshd[20126]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:30:11 web-prod-01 sshd[20126]: Failed password for root from 203.0.113.45 port 49415 ssh2
+Oct 11 02:30:13 web-prod-01 sshd[20126]: Failed password for root from 203.0.113.45 port 49415 ssh2
+Oct 11 02:30:15 web-prod-01 sshd[20126]: Failed password for root from 203.0.113.45 port 49415 ssh2
+Oct 11 02:30:17 web-prod-01 sshd[20126]: Failed password for root from 203.0.113.45 port 49415 ssh2
+Oct 11 02:30:20 web-prod-01 sshd[20126]: Failed password for root from 203.0.113.45 port 49415 ssh2
+Oct 11 02:30:22 web-prod-01 sshd[20126]: Failed password for root from 203.0.113.45 port 49415 ssh2
+Oct 11 02:30:22 web-prod-01 sshd[20126]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 49415 ssh2 [preauth]
+Oct 11 02:30:22 web-prod-01 sshd[20126]: Disconnecting authenticating user root 203.0.113.45 port 49415: Too many authentication failures [preauth]
+Oct 11 02:30:22 web-prod-01 sshd[20126]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:30:58 web-prod-01 sshd[20132]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:31:00 web-prod-01 sshd[20132]: Failed password for root from 203.0.113.45 port 31366 ssh2
+Oct 11 02:31:02 web-prod-01 sshd[20132]: Failed password for root from 203.0.113.45 port 31366 ssh2
+Oct 11 02:31:04 web-prod-01 sshd[20132]: Failed password for root from 203.0.113.45 port 31366 ssh2
+Oct 11 02:31:06 web-prod-01 sshd[20132]: Failed password for root from 203.0.113.45 port 31366 ssh2
+Oct 11 02:31:08 web-prod-01 sshd[20132]: Failed password for root from 203.0.113.45 port 31366 ssh2
+Oct 11 02:31:10 web-prod-01 sshd[20132]: Failed password for root from 203.0.113.45 port 31366 ssh2
+Oct 11 02:31:10 web-prod-01 sshd[20132]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 31366 ssh2 [preauth]
+Oct 11 02:31:10 web-prod-01 sshd[20132]: Disconnecting authenticating user root 203.0.113.45 port 31366: Too many authentication failures [preauth]
+Oct 11 02:31:10 web-prod-01 sshd[20132]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:31:17 web-prod-01 sshd[20139]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:31:19 web-prod-01 sshd[20139]: Failed password for root from 203.0.113.45 port 58878 ssh2
+Oct 11 02:31:22 web-prod-01 sshd[20139]: Failed password for root from 203.0.113.45 port 58878 ssh2
+Oct 11 02:31:26 web-prod-01 sshd[20139]: Failed password for root from 203.0.113.45 port 58878 ssh2
+Oct 11 02:31:29 web-prod-01 sshd[20139]: Failed password for root from 203.0.113.45 port 58878 ssh2
+Oct 11 02:31:33 web-prod-01 sshd[20139]: Failed password for root from 203.0.113.45 port 58878 ssh2
+Oct 11 02:31:36 web-prod-01 sshd[20139]: Failed password for root from 203.0.113.45 port 58878 ssh2
+Oct 11 02:31:36 web-prod-01 sshd[20139]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 58878 ssh2 [preauth]
+Oct 11 02:31:36 web-prod-01 sshd[20139]: Disconnecting authenticating user root 203.0.113.45 port 58878: Too many authentication failures [preauth]
+Oct 11 02:31:36 web-prod-01 sshd[20139]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:32:01 web-prod-01 sshd[20143]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:32:03 web-prod-01 sshd[20143]: Failed password for root from 203.0.113.45 port 53139 ssh2
+Oct 11 02:32:13 web-prod-01 sshd[20143]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 53139 ssh2]
+Oct 11 02:32:13 web-prod-01 sshd[20143]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 53139 ssh2 [preauth]
+Oct 11 02:32:13 web-prod-01 sshd[20143]: Disconnecting authenticating user root 203.0.113.45 port 53139: Too many authentication failures [preauth]
+Oct 11 02:32:13 web-prod-01 sshd[20143]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:32:24 web-prod-01 sshd[20144]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:32:26 web-prod-01 sshd[20144]: Failed password for root from 203.0.113.45 port 31005 ssh2
+Oct 11 02:32:29 web-prod-01 sshd[20144]: Failed password for root from 203.0.113.45 port 31005 ssh2
+Oct 11 02:32:33 web-prod-01 sshd[20144]: Failed password for root from 203.0.113.45 port 31005 ssh2
+Oct 11 02:32:37 web-prod-01 sshd[20144]: Failed password for root from 203.0.113.45 port 31005 ssh2
+Oct 11 02:32:39 web-prod-01 sshd[20144]: Failed password for root from 203.0.113.45 port 31005 ssh2
+Oct 11 02:32:41 web-prod-01 sshd[20144]: Failed password for root from 203.0.113.45 port 31005 ssh2
+Oct 11 02:32:41 web-prod-01 sshd[20144]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 31005 ssh2 [preauth]
+Oct 11 02:32:41 web-prod-01 sshd[20144]: Disconnecting authenticating user root 203.0.113.45 port 31005: Too many authentication failures [preauth]
+Oct 11 02:32:41 web-prod-01 sshd[20144]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:32:58 web-prod-01 sshd[20146]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:33:00 web-prod-01 sshd[20146]: Failed password for root from 203.0.113.45 port 56521 ssh2
+Oct 11 02:33:00 web-prod-01 CRON[20552]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 02:33:01 web-prod-01 CRON[20552]: pam_unix(cron:session): session closed for user root
+Oct 11 02:33:10 web-prod-01 sshd[20146]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 56521 ssh2]
+Oct 11 02:33:10 web-prod-01 sshd[20146]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 56521 ssh2 [preauth]
+Oct 11 02:33:10 web-prod-01 sshd[20146]: Disconnecting authenticating user root 203.0.113.45 port 56521: Too many authentication failures [preauth]
+Oct 11 02:33:10 web-prod-01 sshd[20146]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:33:30 web-prod-01 sshd[20147]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:33:32 web-prod-01 sshd[20147]: Failed password for root from 203.0.113.45 port 58221 ssh2
+Oct 11 02:33:34 web-prod-01 sshd[20147]: Failed password for root from 203.0.113.45 port 58221 ssh2
+Oct 11 02:33:38 web-prod-01 sshd[20147]: Failed password for root from 203.0.113.45 port 58221 ssh2
+Oct 11 02:33:41 web-prod-01 sshd[20147]: Failed password for root from 203.0.113.45 port 58221 ssh2
+Oct 11 02:33:44 web-prod-01 sshd[20147]: Failed password for root from 203.0.113.45 port 58221 ssh2
+Oct 11 02:33:48 web-prod-01 sshd[20147]: Failed password for root from 203.0.113.45 port 58221 ssh2
+Oct 11 02:33:48 web-prod-01 sshd[20147]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 58221 ssh2 [preauth]
+Oct 11 02:33:48 web-prod-01 sshd[20147]: Disconnecting authenticating user root 203.0.113.45 port 58221: Too many authentication failures [preauth]
+Oct 11 02:33:48 web-prod-01 sshd[20147]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:34:22 web-prod-01 sshd[20149]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:34:24 web-prod-01 sshd[20149]: Failed password for root from 203.0.113.45 port 34841 ssh2
+Oct 11 02:34:34 web-prod-01 sshd[20149]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 34841 ssh2]
+Oct 11 02:34:34 web-prod-01 sshd[20149]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 34841 ssh2 [preauth]
+Oct 11 02:34:34 web-prod-01 sshd[20149]: Disconnecting authenticating user root 203.0.113.45 port 34841: Too many authentication failures [preauth]
+Oct 11 02:34:34 web-prod-01 sshd[20149]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:34:43 web-prod-01 sshd[20155]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:34:45 web-prod-01 sshd[20155]: Failed password for root from 203.0.113.45 port 38923 ssh2
+Oct 11 02:34:55 web-prod-01 sshd[20155]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 38923 ssh2]
+Oct 11 02:34:55 web-prod-01 sshd[20155]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 38923 ssh2 [preauth]
+Oct 11 02:34:55 web-prod-01 sshd[20155]: Disconnecting authenticating user root 203.0.113.45 port 38923: Too many authentication failures [preauth]
+Oct 11 02:34:55 web-prod-01 sshd[20155]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:35:23 web-prod-01 sshd[20159]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:35:25 web-prod-01 sshd[20159]: Failed password for root from 203.0.113.45 port 31814 ssh2
+Oct 11 02:35:35 web-prod-01 sshd[20159]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 31814 ssh2]
+Oct 11 02:35:35 web-prod-01 sshd[20159]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 31814 ssh2 [preauth]
+Oct 11 02:35:35 web-prod-01 sshd[20159]: Disconnecting authenticating user root 203.0.113.45 port 31814: Too many authentication failures [preauth]
+Oct 11 02:35:35 web-prod-01 sshd[20159]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:35:40 web-prod-01 sshd[20165]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:35:42 web-prod-01 sshd[20165]: Failed password for root from 203.0.113.45 port 46026 ssh2
+Oct 11 02:35:44 web-prod-01 sshd[20165]: Failed password for root from 203.0.113.45 port 46026 ssh2
+Oct 11 02:35:48 web-prod-01 sshd[20165]: Failed password for root from 203.0.113.45 port 46026 ssh2
+Oct 11 02:35:52 web-prod-01 sshd[20165]: Failed password for root from 203.0.113.45 port 46026 ssh2
+Oct 11 02:35:54 web-prod-01 sshd[20165]: Failed password for root from 203.0.113.45 port 46026 ssh2
+Oct 11 02:35:58 web-prod-01 sshd[20165]: Failed password for root from 203.0.113.45 port 46026 ssh2
+Oct 11 02:35:58 web-prod-01 sshd[20165]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 46026 ssh2 [preauth]
+Oct 11 02:35:58 web-prod-01 sshd[20165]: Disconnecting authenticating user root 203.0.113.45 port 46026: Too many authentication failures [preauth]
+Oct 11 02:35:58 web-prod-01 sshd[20165]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:36:28 web-prod-01 sshd[20170]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:36:30 web-prod-01 sshd[20170]: Failed password for root from 203.0.113.45 port 48812 ssh2
+Oct 11 02:36:32 web-prod-01 sshd[20170]: Failed password for root from 203.0.113.45 port 48812 ssh2
+Oct 11 02:36:36 web-prod-01 sshd[20170]: Failed password for root from 203.0.113.45 port 48812 ssh2
+Oct 11 02:36:38 web-prod-01 sshd[20170]: Failed password for root from 203.0.113.45 port 48812 ssh2
+Oct 11 02:36:41 web-prod-01 sshd[20170]: Failed password for root from 203.0.113.45 port 48812 ssh2
+Oct 11 02:36:44 web-prod-01 sshd[20170]: Failed password for root from 203.0.113.45 port 48812 ssh2
+Oct 11 02:36:44 web-prod-01 sshd[20170]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 48812 ssh2 [preauth]
+Oct 11 02:36:44 web-prod-01 sshd[20170]: Disconnecting authenticating user root 203.0.113.45 port 48812: Too many authentication failures [preauth]
+Oct 11 02:36:44 web-prod-01 sshd[20170]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:37:20 web-prod-01 sshd[20177]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:37:22 web-prod-01 sshd[20177]: Failed password for root from 203.0.113.45 port 51129 ssh2
+Oct 11 02:37:32 web-prod-01 sshd[20177]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 51129 ssh2]
+Oct 11 02:37:32 web-prod-01 sshd[20177]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 51129 ssh2 [preauth]
+Oct 11 02:37:32 web-prod-01 sshd[20177]: Disconnecting authenticating user root 203.0.113.45 port 51129: Too many authentication failures [preauth]
+Oct 11 02:37:32 web-prod-01 sshd[20177]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:37:37 web-prod-01 sshd[20178]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:37:39 web-prod-01 sshd[20178]: Failed password for root from 203.0.113.45 port 35845 ssh2
+Oct 11 02:37:41 web-prod-01 sshd[20178]: Failed password for root from 203.0.113.45 port 35845 ssh2
+Oct 11 02:37:44 web-prod-01 sshd[20178]: Failed password for root from 203.0.113.45 port 35845 ssh2
+Oct 11 02:37:47 web-prod-01 sshd[20178]: Failed password for root from 203.0.113.45 port 35845 ssh2
+Oct 11 02:37:51 web-prod-01 sshd[20178]: Failed password for root from 203.0.113.45 port 35845 ssh2
+Oct 11 02:37:54 web-prod-01 sshd[20178]: Failed password for root from 203.0.113.45 port 35845 ssh2
+Oct 11 02:37:54 web-prod-01 sshd[20178]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 35845 ssh2 [preauth]
+Oct 11 02:37:54 web-prod-01 sshd[20178]: Disconnecting authenticating user root 203.0.113.45 port 35845: Too many authentication failures [preauth]
+Oct 11 02:37:54 web-prod-01 sshd[20178]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:38:24 web-prod-01 sshd[20179]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:38:26 web-prod-01 sshd[20179]: Failed password for root from 203.0.113.45 port 62554 ssh2
+Oct 11 02:38:36 web-prod-01 sshd[20179]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 62554 ssh2]
+Oct 11 02:38:36 web-prod-01 sshd[20179]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 62554 ssh2 [preauth]
+Oct 11 02:38:36 web-prod-01 sshd[20179]: Disconnecting authenticating user root 203.0.113.45 port 62554: Too many authentication failures [preauth]
+Oct 11 02:38:36 web-prod-01 sshd[20179]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:38:52 web-prod-01 sshd[20183]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:38:54 web-prod-01 sshd[20183]: Failed password for root from 203.0.113.45 port 42391 ssh2
+Oct 11 02:39:04 web-prod-01 sshd[20183]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 42391 ssh2]
+Oct 11 02:39:04 web-prod-01 sshd[20183]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 42391 ssh2 [preauth]
+Oct 11 02:39:04 web-prod-01 sshd[20183]: Disconnecting authenticating user root 203.0.113.45 port 42391: Too many authentication failures [preauth]
+Oct 11 02:39:04 web-prod-01 sshd[20183]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:39:14 web-prod-01 sshd[20189]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:39:16 web-prod-01 sshd[20189]: Failed password for root from 203.0.113.45 port 64274 ssh2
+Oct 11 02:39:18 web-prod-01 sshd[20189]: Failed password for root from 203.0.113.45 port 64274 ssh2
+Oct 11 02:39:21 web-prod-01 sshd[20189]: Failed password for root from 203.0.113.45 port 64274 ssh2
+Oct 11 02:39:23 web-prod-01 sshd[20189]: Failed password for root from 203.0.113.45 port 64274 ssh2
+Oct 11 02:39:27 web-prod-01 sshd[20189]: Failed password for root from 203.0.113.45 port 64274 ssh2
+Oct 11 02:39:29 web-prod-01 sshd[20189]: Failed password for root from 203.0.113.45 port 64274 ssh2
+Oct 11 02:39:29 web-prod-01 sshd[20189]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 64274 ssh2 [preauth]
+Oct 11 02:39:29 web-prod-01 sshd[20189]: Disconnecting authenticating user root 203.0.113.45 port 64274: Too many authentication failures [preauth]
+Oct 11 02:39:29 web-prod-01 sshd[20189]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:39:48 web-prod-01 sshd[20193]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:39:50 web-prod-01 sshd[20193]: Failed password for root from 203.0.113.45 port 31335 ssh2
+Oct 11 02:39:53 web-prod-01 sshd[20193]: Failed password for root from 203.0.113.45 port 31335 ssh2
+Oct 11 02:39:57 web-prod-01 sshd[20193]: Failed password for root from 203.0.113.45 port 31335 ssh2
+Oct 11 02:40:01 web-prod-01 sshd[20193]: Failed password for root from 203.0.113.45 port 31335 ssh2
+Oct 11 02:40:04 web-prod-01 sshd[20193]: Failed password for root from 203.0.113.45 port 31335 ssh2
+Oct 11 02:40:06 web-prod-01 sshd[20193]: Failed password for root from 203.0.113.45 port 31335 ssh2
+Oct 11 02:40:06 web-prod-01 sshd[20193]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 31335 ssh2 [preauth]
+Oct 11 02:40:06 web-prod-01 sshd[20193]: Disconnecting authenticating user root 203.0.113.45 port 31335: Too many authentication failures [preauth]
+Oct 11 02:40:06 web-prod-01 sshd[20193]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:40:31 web-prod-01 sshd[20199]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:40:33 web-prod-01 sshd[20199]: Failed password for root from 203.0.113.45 port 62150 ssh2
+Oct 11 02:40:43 web-prod-01 sshd[20199]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 62150 ssh2]
+Oct 11 02:40:43 web-prod-01 sshd[20199]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 62150 ssh2 [preauth]
+Oct 11 02:40:43 web-prod-01 sshd[20199]: Disconnecting authenticating user root 203.0.113.45 port 62150: Too many authentication failures [preauth]
+Oct 11 02:40:43 web-prod-01 sshd[20199]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:41:11 web-prod-01 sshd[20202]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:41:13 web-prod-01 sshd[20202]: Failed password for root from 203.0.113.45 port 31619 ssh2
+Oct 11 02:41:16 web-prod-01 sshd[20202]: Failed password for root from 203.0.113.45 port 31619 ssh2
+Oct 11 02:41:20 web-prod-01 sshd[20202]: Failed password for root from 203.0.113.45 port 31619 ssh2
+Oct 11 02:41:24 web-prod-01 sshd[20202]: Failed password for root from 203.0.113.45 port 31619 ssh2
+Oct 11 02:41:27 web-prod-01 sshd[20202]: Failed password for root from 203.0.113.45 port 31619 ssh2
+Oct 11 02:41:31 web-prod-01 sshd[20202]: Failed password for root from 203.0.113.45 port 31619 ssh2
+Oct 11 02:41:31 web-prod-01 sshd[20202]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 31619 ssh2 [preauth]
+Oct 11 02:41:31 web-prod-01 sshd[20202]: Disconnecting authenticating user root 203.0.113.45 port 31619: Too many authentication failures [preauth]
+Oct 11 02:41:31 web-prod-01 sshd[20202]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:41:49 web-prod-01 sshd[20207]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:41:51 web-prod-01 sshd[20207]: Failed password for root from 203.0.113.45 port 31786 ssh2
+Oct 11 02:42:01 web-prod-01 sshd[20207]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 31786 ssh2]
+Oct 11 02:42:01 web-prod-01 sshd[20207]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 31786 ssh2 [preauth]
+Oct 11 02:42:01 web-prod-01 sshd[20207]: Disconnecting authenticating user root 203.0.113.45 port 31786: Too many authentication failures [preauth]
+Oct 11 02:42:01 web-prod-01 sshd[20207]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:42:09 web-prod-01 sshd[20212]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:42:11 web-prod-01 sshd[20212]: Failed password for root from 203.0.113.45 port 56103 ssh2
+Oct 11 02:42:21 web-prod-01 sshd[20212]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 56103 ssh2]
+Oct 11 02:42:21 web-prod-01 sshd[20212]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 56103 ssh2 [preauth]
+Oct 11 02:42:21 web-prod-01 sshd[20212]: Disconnecting authenticating user root 203.0.113.45 port 56103: Too many authentication failures [preauth]
+Oct 11 02:42:21 web-prod-01 sshd[20212]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:42:28 web-prod-01 sshd[20213]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:42:30 web-prod-01 sshd[20213]: Failed password for root from 203.0.113.45 port 32679 ssh2
+Oct 11 02:42:34 web-prod-01 sshd[20213]: Failed password for root from 203.0.113.45 port 32679 ssh2
+Oct 11 02:42:38 web-prod-01 sshd[20213]: Failed password for root from 203.0.113.45 port 32679 ssh2
+Oct 11 02:42:41 web-prod-01 sshd[20213]: Failed password for root from 203.0.113.45 port 32679 ssh2
+Oct 11 02:42:45 web-prod-01 sshd[20213]: Failed password for root from 203.0.113.45 port 32679 ssh2
+Oct 11 02:42:48 web-prod-01 sshd[20213]: Failed password for root from 203.0.113.45 port 32679 ssh2
+Oct 11 02:42:48 web-prod-01 sshd[20213]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 32679 ssh2 [preauth]
+Oct 11 02:42:48 web-prod-01 sshd[20213]: Disconnecting authenticating user root 203.0.113.45 port 32679: Too many authentication failures [preauth]
+Oct 11 02:42:48 web-prod-01 sshd[20213]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:42:58 web-prod-01 sshd[20218]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:43:00 web-prod-01 sshd[20218]: Failed password for root from 203.0.113.45 port 64319 ssh2
+Oct 11 02:43:04 web-prod-01 sshd[20218]: Failed password for root from 203.0.113.45 port 64319 ssh2
+Oct 11 02:43:07 web-prod-01 sshd[20218]: Failed password for root from 203.0.113.45 port 64319 ssh2
+Oct 11 02:43:11 web-prod-01 sshd[20218]: Failed password for root from 203.0.113.45 port 64319 ssh2
+Oct 11 02:43:15 web-prod-01 sshd[20218]: Failed password for root from 203.0.113.45 port 64319 ssh2
+Oct 11 02:43:17 web-prod-01 sshd[20218]: Failed password for root from 203.0.113.45 port 64319 ssh2
+Oct 11 02:43:17 web-prod-01 sshd[20218]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 64319 ssh2 [preauth]
+Oct 11 02:43:17 web-prod-01 sshd[20218]: Disconnecting authenticating user root 203.0.113.45 port 64319: Too many authentication failures [preauth]
+Oct 11 02:43:17 web-prod-01 sshd[20218]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:43:27 web-prod-01 sshd[20223]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:43:29 web-prod-01 sshd[20223]: Failed password for root from 203.0.113.45 port 53801 ssh2
+Oct 11 02:43:39 web-prod-01 sshd[20223]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 53801 ssh2]
+Oct 11 02:43:39 web-prod-01 sshd[20223]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 53801 ssh2 [preauth]
+Oct 11 02:43:39 web-prod-01 sshd[20223]: Disconnecting authenticating user root 203.0.113.45 port 53801: Too many authentication failures [preauth]
+Oct 11 02:43:39 web-prod-01 sshd[20223]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:44:07 web-prod-01 sshd[20225]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:44:09 web-prod-01 sshd[20225]: Failed password for root from 203.0.113.45 port 37058 ssh2
+Oct 11 02:44:19 web-prod-01 sshd[20225]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 37058 ssh2]
+Oct 11 02:44:19 web-prod-01 sshd[20225]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 37058 ssh2 [preauth]
+Oct 11 02:44:19 web-prod-01 sshd[20225]: Disconnecting authenticating user root 203.0.113.45 port 37058: Too many authentication failures [preauth]
+Oct 11 02:44:19 web-prod-01 sshd[20225]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:44:38 web-prod-01 sshd[20229]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:44:40 web-prod-01 sshd[20229]: Failed password for root from 203.0.113.45 port 40735 ssh2
+Oct 11 02:44:42 web-prod-01 sshd[20229]: Failed password for root from 203.0.113.45 port 40735 ssh2
+Oct 11 02:44:44 web-prod-01 sshd[20229]: Failed password for root from 203.0.113.45 port 40735 ssh2
+Oct 11 02:44:48 web-prod-01 sshd[20229]: Failed password for root from 203.0.113.45 port 40735 ssh2
+Oct 11 02:44:51 web-prod-01 sshd[20229]: Failed password for root from 203.0.113.45 port 40735 ssh2
+Oct 11 02:44:54 web-prod-01 sshd[20229]: Failed password for root from 203.0.113.45 port 40735 ssh2
+Oct 11 02:44:54 web-prod-01 sshd[20229]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 40735 ssh2 [preauth]
+Oct 11 02:44:54 web-prod-01 sshd[20229]: Disconnecting authenticating user root 203.0.113.45 port 40735: Too many authentication failures [preauth]
+Oct 11 02:44:54 web-prod-01 sshd[20229]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:45:29 web-prod-01 sshd[20232]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:45:31 web-prod-01 sshd[20232]: Failed password for root from 203.0.113.45 port 44146 ssh2
+Oct 11 02:45:41 web-prod-01 sshd[20232]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 44146 ssh2]
+Oct 11 02:45:41 web-prod-01 sshd[20232]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 44146 ssh2 [preauth]
+Oct 11 02:45:41 web-prod-01 sshd[20232]: Disconnecting authenticating user root 203.0.113.45 port 44146: Too many authentication failures [preauth]
+Oct 11 02:45:41 web-prod-01 sshd[20232]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:45:56 web-prod-01 sshd[20236]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:45:58 web-prod-01 sshd[20236]: Failed password for root from 203.0.113.45 port 47611 ssh2
+Oct 11 02:46:02 web-prod-01 sshd[20236]: Failed password for root from 203.0.113.45 port 47611 ssh2
+Oct 11 02:46:04 web-prod-01 sshd[20236]: Failed password for root from 203.0.113.45 port 47611 ssh2
+Oct 11 02:46:08 web-prod-01 sshd[20236]: Failed password for root from 203.0.113.45 port 47611 ssh2
+Oct 11 02:46:11 web-prod-01 sshd[20236]: Failed password for root from 203.0.113.45 port 47611 ssh2
+Oct 11 02:46:14 web-prod-01 sshd[20236]: Failed password for root from 203.0.113.45 port 47611 ssh2
+Oct 11 02:46:14 web-prod-01 sshd[20236]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 47611 ssh2 [preauth]
+Oct 11 02:46:14 web-prod-01 sshd[20236]: Disconnecting authenticating user root 203.0.113.45 port 47611: Too many authentication failures [preauth]
+Oct 11 02:46:14 web-prod-01 sshd[20236]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:46:35 web-prod-01 sshd[20237]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:46:37 web-prod-01 sshd[20237]: Failed password for root from 203.0.113.45 port 43421 ssh2
+Oct 11 02:46:47 web-prod-01 sshd[20237]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 43421 ssh2]
+Oct 11 02:46:47 web-prod-01 sshd[20237]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 43421 ssh2 [preauth]
+Oct 11 02:46:47 web-prod-01 sshd[20237]: Disconnecting authenticating user root 203.0.113.45 port 43421: Too many authentication failures [preauth]
+Oct 11 02:46:47 web-prod-01 sshd[20237]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:47:01 web-prod-01 sshd[20239]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:47:03 web-prod-01 sshd[20239]: Failed password for root from 203.0.113.45 port 39954 ssh2
+Oct 11 02:47:05 web-prod-01 sshd[20239]: Failed password for root from 203.0.113.45 port 39954 ssh2
+Oct 11 02:47:09 web-prod-01 sshd[20239]: Failed password for root from 203.0.113.45 port 39954 ssh2
+Oct 11 02:47:11 web-prod-01 sshd[20239]: Failed password for root from 203.0.113.45 port 39954 ssh2
+Oct 11 02:47:13 web-prod-01 sshd[20239]: Failed password for root from 203.0.113.45 port 39954 ssh2
+Oct 11 02:47:15 web-prod-01 sshd[20239]: Failed password for root from 203.0.113.45 port 39954 ssh2
+Oct 11 02:47:15 web-prod-01 sshd[20239]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 39954 ssh2 [preauth]
+Oct 11 02:47:15 web-prod-01 sshd[20239]: Disconnecting authenticating user root 203.0.113.45 port 39954: Too many authentication failures [preauth]
+Oct 11 02:47:15 web-prod-01 sshd[20239]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:47:42 web-prod-01 sshd[20241]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:47:44 web-prod-01 sshd[20241]: Failed password for root from 203.0.113.45 port 34125 ssh2
+Oct 11 02:47:54 web-prod-01 sshd[20241]: message repeated 5 times: [ Failed password for root from 203.0.113.45 port 34125 ssh2]
+Oct 11 02:47:54 web-prod-01 sshd[20241]: error: maximum authentication attempts exceeded for root from 203.0.113.45 port 34125 ssh2 [preauth]
+Oct 11 02:47:54 web-prod-01 sshd[20241]: Disconnecting authenticating user root 203.0.113.45 port 34125: Too many authentication failures [preauth]
+Oct 11 02:47:54 web-prod-01 sshd[20241]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.45  user=root
+Oct 11 02:50:00 web-prod-01 CRON[20556]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 02:50:01 web-prod-01 CRON[20556]: pam_unix(cron:session): session closed for user root
+Oct 11 03:06:00 web-prod-01 sshd[20418]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.10  user=root
+Oct 11 03:06:02 web-prod-01 sshd[20418]: Failed password for root from 192.0.2.10 port 44027 ssh2
+Oct 11 03:06:02 web-prod-01 sshd[20418]: Connection closed by authenticating user root 192.0.2.10 port 44027 [preauth]
+Oct 11 03:07:00 web-prod-01 CRON[20563]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 03:07:01 web-prod-01 CRON[20563]: pam_unix(cron:session): session closed for user root
+Oct 11 03:24:00 web-prod-01 CRON[20570]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 03:24:01 web-prod-01 CRON[20570]: pam_unix(cron:session): session closed for user root
+Oct 11 03:35:00 web-prod-01 sudo:     sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 11 03:35:00 web-prod-01 sshd[20905]: Connection closed by 203.0.113.123 port 56551 [preauth]
+Oct 11 03:35:00 web-prod-01 sshd[20911]: Received disconnect from 192.0.2.66 port 53120:11: Bye Bye [preauth]
+Oct 11 03:41:00 web-prod-01 CRON[20577]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 03:41:01 web-prod-01 CRON[20577]: pam_unix(cron:session): session closed for user root
+Oct 11 03:58:00 web-prod-01 CRON[20581]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 03:58:01 web-prod-01 CRON[20581]: pam_unix(cron:session): session closed for user root
+Oct 11 04:03:00 web-prod-01 sshd[20420]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.10  user=root
+Oct 11 04:03:02 web-prod-01 sshd[20420]: Failed password for root from 192.0.2.10 port 63142 ssh2
+Oct 11 04:03:02 web-prod-01 sshd[20420]: Connection closed by authenticating user root 192.0.2.10 port 63142 [preauth]
+Oct 11 04:15:00 web-prod-01 CRON[20583]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 04:15:01 web-prod-01 CRON[20583]: pam_unix(cron:session): session closed for user root
+Oct 11 04:32:00 web-prod-01 CRON[20587]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 04:32:01 web-prod-01 CRON[20587]: pam_unix(cron:session): session closed for user root
+Oct 11 04:49:00 web-prod-01 CRON[20593]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 04:49:01 web-prod-01 CRON[20593]: pam_unix(cron:session): session closed for user root
+Oct 11 05:02:00 web-prod-01 sshd[20246]: Invalid user user from 198.51.100.77 port 54806
+Oct 11 05:02:00 web-prod-01 sshd[20246]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:02:00 web-prod-01 sshd[20246]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:02:02 web-prod-01 sshd[20246]: Failed password for invalid user user from 198.51.100.77 port 54806 ssh2
+Oct 11 05:02:06 web-prod-01 sshd[20246]: Failed password for invalid user user from 198.51.100.77 port 54806 ssh2
+Oct 11 05:02:09 web-prod-01 sshd[20246]: Failed password for invalid user user from 198.51.100.77 port 54806 ssh2
+Oct 11 05:02:09 web-prod-01 sshd[20246]: Connection closed by invalid user user 198.51.100.77 port 54806 [preauth]
+Oct 11 05:02:14 web-prod-01 sshd[20252]: Invalid user ubuntu from 198.51.100.77 port 53616
+Oct 11 05:02:14 web-prod-01 sshd[20252]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:02:14 web-prod-01 sshd[20252]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:02:16 web-prod-01 sshd[20252]: Failed password for invalid user ubuntu from 198.51.100.77 port 53616 ssh2
+Oct 11 05:02:16 web-prod-01 sshd[20252]: Connection closed by invalid user ubuntu 198.51.100.77 port 53616 [preauth]
+Oct 11 05:02:25 web-prod-01 sshd[20258]: Invalid user minecraft from 198.51.100.77 port 33721
+Oct 11 05:02:25 web-prod-01 sshd[20258]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:02:25 web-prod-01 sshd[20258]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:02:27 web-prod-01 sshd[20258]: Failed password for invalid user minecraft from 198.51.100.77 port 33721 ssh2
+Oct 11 05:02:31 web-prod-01 sshd[20258]: Failed password for invalid user minecraft from 198.51.100.77 port 33721 ssh2
+Oct 11 05:02:33 web-prod-01 sshd[20258]: Failed password for invalid user minecraft from 198.51.100.77 port 33721 ssh2
+Oct 11 05:02:33 web-prod-01 sshd[20258]: Connection closed by invalid user minecraft 198.51.100.77 port 33721 [preauth]
+Oct 11 05:02:39 web-prod-01 sshd[20261]: Invalid user postgres from 198.51.100.77 port 48766
+Oct 11 05:02:39 web-prod-01 sshd[20261]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:02:39 web-prod-01 sshd[20261]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:02:41 web-prod-01 sshd[20261]: Failed password for invalid user postgres from 198.51.100.77 port 48766 ssh2
+Oct 11 05:02:44 web-prod-01 sshd[20261]: Failed password for invalid user postgres from 198.51.100.77 port 48766 ssh2
+Oct 11 05:02:47 web-prod-01 sshd[20261]: Failed password for invalid user postgres from 198.51.100.77 port 48766 ssh2
+Oct 11 05:02:47 web-prod-01 sshd[20261]: Connection closed by invalid user postgres 198.51.100.77 port 48766 [preauth]
+Oct 11 05:02:51 web-prod-01 sshd[20264]: Invalid user postgres from 198.51.100.77 port 52302
+Oct 11 05:02:51 web-prod-01 sshd[20264]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:02:51 web-prod-01 sshd[20264]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:02:53 web-prod-01 sshd[20264]: Failed password for invalid user postgres from 198.51.100.77 port 52302 ssh2
+Oct 11 05:02:57 web-prod-01 sshd[20264]: Failed password for invalid user postgres from 198.51.100.77 port 52302 ssh2
+Oct 11 05:02:57 web-prod-01 sshd[20264]: Connection closed by invalid user postgres 198.51.100.77 port 52302 [preauth]
+Oct 11 05:03:02 web-prod-01 sshd[20271]: Invalid user hadoop from 198.51.100.77 port 47616
+Oct 11 05:03:02 web-prod-01 sshd[20271]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:03:02 web-prod-01 sshd[20271]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:03:04 web-prod-01 sshd[20271]: Failed password for invalid user hadoop from 198.51.100.77 port 47616 ssh2
+Oct 11 05:03:08 web-prod-01 sshd[20271]: Failed password for invalid user hadoop from 198.51.100.77 port 47616 ssh2
+Oct 11 05:03:11 web-prod-01 sshd[20271]: Failed password for invalid user hadoop from 198.51.100.77 port 47616 ssh2
+Oct 11 05:03:11 web-prod-01 sshd[20271]: Connection closed by invalid user hadoop 198.51.100.77 port 47616 [preauth]
+Oct 11 05:03:15 web-prod-01 sshd[20278]: Invalid user support from 198.51.100.77 port 33270
+Oct 11 05:03:15 web-prod-01 sshd[20278]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:03:15 web-prod-01 sshd[20278]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:03:17 web-prod-01 sshd[20278]: Failed password for invalid user support from 198.51.100.77 port 33270 ssh2
+Oct 11 05:03:19 web-prod-01 sshd[20278]: Failed password for invalid user support from 198.51.100.77 port 33270 ssh2
+Oct 11 05:03:19 web-prod-01 sshd[20278]: Connection closed by invalid user support 198.51.100.77 port 33270 [preauth]
+Oct 11 05:03:35 web-prod-01 sshd[20284]: Invalid user ftpuser from 198.51.100.77 port 52518
+Oct 11 05:03:35 web-prod-01 sshd[20284]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:03:35 web-prod-01 sshd[20284]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:03:37 web-prod-01 sshd[20284]: Failed password for invalid user ftpuser from 198.51.100.77 port 52518 ssh2
+Oct 11 05:03:39 web-prod-01 sshd[20284]: Failed password for invalid user ftpuser from 198.51.100.77 port 52518 ssh2
+Oct 11 05:03:39 web-prod-01 sshd[20284]: Connection closed by invalid user ftpuser 198.51.100.77 port 52518 [preauth]
+Oct 11 05:03:54 web-prod-01 sshd[20285]: Invalid user guest from 198.51.100.77 port 58833
+Oct 11 05:03:54 web-prod-01 sshd[20285]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:03:54 web-prod-01 sshd[20285]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:03:56 web-prod-01 sshd[20285]: Failed password for invalid user guest from 198.51.100.77 port 58833 ssh2
+Oct 11 05:03:58 web-prod-01 sshd[20285]: Failed password for invalid user guest from 198.51.100.77 port 58833 ssh2
+Oct 11 05:04:02 web-prod-01 sshd[20285]: Failed password for invalid user guest from 198.51.100.77 port 58833 ssh2
+Oct 11 05:04:02 web-prod-01 sshd[20285]: Connection closed by invalid user guest 198.51.100.77 port 58833 [preauth]
+Oct 11 05:04:11 web-prod-01 sshd[20290]: Invalid user support from 198.51.100.77 port 55140
+Oct 11 05:04:11 web-prod-01 sshd[20290]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:04:11 web-prod-01 sshd[20290]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:04:13 web-prod-01 sshd[20290]: Failed password for invalid user support from 198.51.100.77 port 55140 ssh2
+Oct 11 05:04:17 web-prod-01 sshd[20290]: Failed password for invalid user support from 198.51.100.77 port 55140 ssh2
+Oct 11 05:04:20 web-prod-01 sshd[20290]: Failed password for invalid user support from 198.51.100.77 port 55140 ssh2
+Oct 11 05:04:20 web-prod-01 sshd[20290]: Connection closed by invalid user support 198.51.100.77 port 55140 [preauth]
+Oct 11 05:04:29 web-prod-01 sshd[20294]: Invalid user deploy from 198.51.100.77 port 56725
+Oct 11 05:04:29 web-prod-01 sshd[20294]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:04:29 web-prod-01 sshd[20294]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:04:31 web-prod-01 sshd[20294]: Failed password for invalid user deploy from 198.51.100.77 port 56725 ssh2
+Oct 11 05:04:35 web-prod-01 sshd[20294]: Failed password for invalid user deploy from 198.51.100.77 port 56725 ssh2
+Oct 11 05:04:38 web-prod-01 sshd[20294]: Failed password for invalid user deploy from 198.51.100.77 port 56725 ssh2
+Oct 11 05:04:38 web-prod-01 sshd[20294]: Connection closed by invalid user deploy 198.51.100.77 port 56725 [preauth]
+Oct 11 05:04:45 web-prod-01 sshd[20300]: Invalid user user from 198.51.100.77 port 55436
+Oct 11 05:04:45 web-prod-01 sshd[20300]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:04:45 web-prod-01 sshd[20300]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:04:47 web-prod-01 sshd[20300]: Failed password for invalid user user from 198.51.100.77 port 55436 ssh2
+Oct 11 05:04:49 web-prod-01 sshd[20300]: Failed password for invalid user user from 198.51.100.77 port 55436 ssh2
+Oct 11 05:04:49 web-prod-01 sshd[20300]: Connection closed by invalid user user 198.51.100.77 port 55436 [preauth]
+Oct 11 05:04:54 web-prod-01 sshd[20302]: Invalid user postgres from 198.51.100.77 port 46492
+Oct 11 05:04:54 web-prod-01 sshd[20302]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:04:54 web-prod-01 sshd[20302]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:04:56 web-prod-01 sshd[20302]: Failed password for invalid user postgres from 198.51.100.77 port 46492 ssh2
+Oct 11 05:05:00 web-prod-01 sshd[20302]: Failed password for invalid user postgres from 198.51.100.77 port 46492 ssh2
+Oct 11 05:05:00 web-prod-01 sshd[20302]: Connection closed by invalid user postgres 198.51.100.77 port 46492 [preauth]
+Oct 11 05:05:11 web-prod-01 sshd[20305]: Invalid user minecraft from 198.51.100.77 port 36946
+Oct 11 05:05:11 web-prod-01 sshd[20305]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:05:11 web-prod-01 sshd[20305]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:05:13 web-prod-01 sshd[20305]: Failed password for invalid user minecraft from 198.51.100.77 port 36946 ssh2
+Oct 11 05:05:15 web-prod-01 sshd[20305]: Failed password for invalid user minecraft from 198.51.100.77 port 36946 ssh2
+Oct 11 05:05:19 web-prod-01 sshd[20305]: Failed password for invalid user minecraft from 198.51.100.77 port 36946 ssh2
+Oct 11 05:05:19 web-prod-01 sshd[20305]: Connection closed by invalid user minecraft 198.51.100.77 port 36946 [preauth]
+Oct 11 05:05:27 web-prod-01 sshd[20311]: Invalid user oracle from 198.51.100.77 port 57059
+Oct 11 05:05:27 web-prod-01 sshd[20311]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:05:27 web-prod-01 sshd[20311]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:05:29 web-prod-01 sshd[20311]: Failed password for invalid user oracle from 198.51.100.77 port 57059 ssh2
+Oct 11 05:05:31 web-prod-01 sshd[20311]: Failed password for invalid user oracle from 198.51.100.77 port 57059 ssh2
+Oct 11 05:05:31 web-prod-01 sshd[20311]: Connection closed by invalid user oracle 198.51.100.77 port 57059 [preauth]
+Oct 11 05:05:50 web-prod-01 sshd[20313]: Invalid user test from 198.51.100.77 port 63048
+Oct 11 05:05:50 web-prod-01 sshd[20313]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:05:50 web-prod-01 sshd[20313]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:05:52 web-prod-01 sshd[20313]: Failed password for invalid user test from 198.51.100.77 port 63048 ssh2
+Oct 11 05:05:55 web-prod-01 sshd[20313]: Failed password for invalid user test from 198.51.100.77 port 63048 ssh2
+Oct 11 05:05:59 web-prod-01 sshd[20313]: Failed password for invalid user test from 198.51.100.77 port 63048 ssh2
+Oct 11 05:05:59 web-prod-01 sshd[20313]: Connection closed by invalid user test 198.51.100.77 port 63048 [preauth]
+Oct 11 05:06:00 web-prod-01 sshd[20425]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.10  user=root
+Oct 11 05:06:00 web-prod-01 CRON[20596]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 05:06:01 web-prod-01 CRON[20596]: pam_unix(cron:session): session closed for user root
+Oct 11 05:06:02 web-prod-01 sshd[20425]: Failed password for root from 192.0.2.10 port 56974 ssh2
+Oct 11 05:06:02 web-prod-01 sshd[20425]: Connection closed by authenticating user root 192.0.2.10 port 56974 [preauth]
+Oct 11 05:06:13 web-prod-01 sshd[20318]: Invalid user hadoop from 198.51.100.77 port 31147
+Oct 11 05:06:13 web-prod-01 sshd[20318]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:06:13 web-prod-01 sshd[20318]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:06:15 web-prod-01 sshd[20318]: Failed password for invalid user hadoop from 198.51.100.77 port 31147 ssh2
+Oct 11 05:06:18 web-prod-01 sshd[20318]: Failed password for invalid user hadoop from 198.51.100.77 port 31147 ssh2
+Oct 11 05:06:18 web-prod-01 sshd[20318]: Connection closed by invalid user hadoop 198.51.100.77 port 31147 [preauth]
+Oct 11 05:06:23 web-prod-01 sshd[20322]: Invalid user user from 198.51.100.77 port 63651
+Oct 11 05:06:23 web-prod-01 sshd[20322]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:06:23 web-prod-01 sshd[20322]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:06:25 web-prod-01 sshd[20322]: Failed password for invalid user user from 198.51.100.77 port 63651 ssh2
+Oct 11 05:06:28 web-prod-01 sshd[20322]: Failed password for invalid user user from 198.51.100.77 port 63651 ssh2
+Oct 11 05:06:30 web-prod-01 sshd[20322]: Failed password for invalid user user from 198.51.100.77 port 63651 ssh2
+Oct 11 05:06:30 web-prod-01 sshd[20322]: Connection closed by invalid user user 198.51.100.77 port 63651 [preauth]
+Oct 11 05:06:36 web-prod-01 sshd[20324]: Invalid user admin from 198.51.100.77 port 40042
+Oct 11 05:06:36 web-prod-01 sshd[20324]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:06:36 web-prod-01 sshd[20324]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:06:38 web-prod-01 sshd[20324]: Failed password for invalid user admin from 198.51.100.77 port 40042 ssh2
+Oct 11 05:06:40 web-prod-01 sshd[20324]: Failed password for invalid user admin from 198.51.100.77 port 40042 ssh2
+Oct 11 05:06:44 web-prod-01 sshd[20324]: Failed password for invalid user admin from 198.51.100.77 port 40042 ssh2
+Oct 11 05:06:44 web-prod-01 sshd[20324]: Connection closed by invalid user admin 198.51.100.77 port 40042 [preauth]
+Oct 11 05:06:49 web-prod-01 sshd[20330]: Invalid user minecraft from 198.51.100.77 port 33631
+Oct 11 05:06:49 web-prod-01 sshd[20330]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:06:49 web-prod-01 sshd[20330]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:06:51 web-prod-01 sshd[20330]: Failed password for invalid user minecraft from 198.51.100.77 port 33631 ssh2
+Oct 11 05:06:51 web-prod-01 sshd[20330]: Connection closed by invalid user minecraft 198.51.100.77 port 33631 [preauth]
+Oct 11 05:06:55 web-prod-01 sshd[20335]: Invalid user pi from 198.51.100.77 port 31744
+Oct 11 05:06:55 web-prod-01 sshd[20335]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:06:55 web-prod-01 sshd[20335]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:06:57 web-prod-01 sshd[20335]: Failed password for invalid user pi from 198.51.100.77 port 31744 ssh2
+Oct 11 05:07:01 web-prod-01 sshd[20335]: Failed password for invalid user pi from 198.51.100.77 port 31744 ssh2
+Oct 11 05:07:05 web-prod-01 sshd[20335]: Failed password for invalid user pi from 198.51.100.77 port 31744 ssh2
+Oct 11 05:07:05 web-prod-01 sshd[20335]: Connection closed by invalid user pi 198.51.100.77 port 31744 [preauth]
+Oct 11 05:07:18 web-prod-01 sshd[20340]: Invalid user deploy from 198.51.100.77 port 52503
+Oct 11 05:07:18 web-prod-01 sshd[20340]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:07:18 web-prod-01 sshd[20340]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:07:20 web-prod-01 sshd[20340]: Failed password for invalid user deploy from 198.51.100.77 port 52503 ssh2
+Oct 11 05:07:20 web-prod-01 sshd[20340]: Connection closed by invalid user deploy 198.51.100.77 port 52503 [preauth]
+Oct 11 05:07:30 web-prod-01 sshd[20346]: Invalid user postgres from 198.51.100.77 port 49888
+Oct 11 05:07:30 web-prod-01 sshd[20346]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:07:30 web-prod-01 sshd[20346]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:07:32 web-prod-01 sshd[20346]: Failed password for invalid user postgres from 198.51.100.77 port 49888 ssh2
+Oct 11 05:07:35 web-prod-01 sshd[20346]: Failed password for invalid user postgres from 198.51.100.77 port 49888 ssh2
+Oct 11 05:07:38 web-prod-01 sshd[20346]: Failed password for invalid user postgres from 198.51.100.77 port 49888 ssh2
+Oct 11 05:07:38 web-prod-01 sshd[20346]: Connection closed by invalid user postgres 198.51.100.77 port 49888 [preauth]
+Oct 11 05:07:53 web-prod-01 sshd[20352]: Invalid user deploy from 198.51.100.77 port 41734
+Oct 11 05:07:53 web-prod-01 sshd[20352]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:07:53 web-prod-01 sshd[20352]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:07:55 web-prod-01 sshd[20352]: Failed password for invalid user deploy from 198.51.100.77 port 41734 ssh2
+Oct 11 05:07:57 web-prod-01 sshd[20352]: Failed password for invalid user deploy from 198.51.100.77 port 41734 ssh2
+Oct 11 05:07:57 web-prod-01 sshd[20352]: Connection closed by invalid user deploy 198.51.100.77 port 41734 [preauth]
+Oct 11 05:08:17 web-prod-01 sshd[20353]: Invalid user pi from 198.51.100.77 port 58648
+Oct 11 05:08:17 web-prod-01 sshd[20353]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:08:17 web-prod-01 sshd[20353]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:08:19 web-prod-01 sshd[20353]: Failed password for invalid user pi from 198.51.100.77 port 58648 ssh2
+Oct 11 05:08:22 web-prod-01 sshd[20353]: Failed password for invalid user pi from 198.51.100.77 port 58648 ssh2
+Oct 11 05:08:22 web-prod-01 sshd[20353]: Connection closed by invalid user pi 198.51.100.77 port 58648 [preauth]
+Oct 11 05:08:37 web-prod-01 sshd[20360]: Invalid user ubuntu from 198.51.100.77 port 34717
+Oct 11 05:08:37 web-prod-01 sshd[20360]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:08:37 web-prod-01 sshd[20360]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:08:39 web-prod-01 sshd[20360]: Failed password for invalid user ubuntu from 198.51.100.77 port 34717 ssh2
+Oct 11 05:08:41 web-prod-01 sshd[20360]: Failed password for invalid user ubuntu from 198.51.100.77 port 34717 ssh2
+Oct 11 05:08:41 web-prod-01 sshd[20360]: Connection closed by invalid user ubuntu 198.51.100.77 port 34717 [preauth]
+Oct 11 05:08:44 web-prod-01 sshd[20365]: Invalid user minecraft from 198.51.100.77 port 42030
+Oct 11 05:08:44 web-prod-01 sshd[20365]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:08:44 web-prod-01 sshd[20365]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:08:46 web-prod-01 sshd[20365]: Failed password for invalid user minecraft from 198.51.100.77 port 42030 ssh2
+Oct 11 05:08:49 web-prod-01 sshd[20365]: Failed password for invalid user minecraft from 198.51.100.77 port 42030 ssh2
+Oct 11 05:08:52 web-prod-01 sshd[20365]: Failed password for invalid user minecraft from 198.51.100.77 port 42030 ssh2
+Oct 11 05:08:52 web-prod-01 sshd[20365]: Connection closed by invalid user minecraft 198.51.100.77 port 42030 [preauth]
+Oct 11 05:09:05 web-prod-01 sshd[20367]: Invalid user postgres from 198.51.100.77 port 34566
+Oct 11 05:09:05 web-prod-01 sshd[20367]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:09:05 web-prod-01 sshd[20367]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:09:07 web-prod-01 sshd[20367]: Failed password for invalid user postgres from 198.51.100.77 port 34566 ssh2
+Oct 11 05:09:09 web-prod-01 sshd[20367]: Failed password for invalid user postgres from 198.51.100.77 port 34566 ssh2
+Oct 11 05:09:09 web-prod-01 sshd[20367]: Connection closed by invalid user postgres 198.51.100.77 port 34566 [preauth]
+Oct 11 05:09:29 web-prod-01 sshd[20370]: Invalid user hadoop from 198.51.100.77 port 58728
+Oct 11 05:09:29 web-prod-01 sshd[20370]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:09:29 web-prod-01 sshd[20370]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:09:31 web-prod-01 sshd[20370]: Failed password for invalid user hadoop from 198.51.100.77 port 58728 ssh2
+Oct 11 05:09:33 web-prod-01 sshd[20370]: Failed password for invalid user hadoop from 198.51.100.77 port 58728 ssh2
+Oct 11 05:09:33 web-prod-01 sshd[20370]: Connection closed by invalid user hadoop 198.51.100.77 port 58728 [preauth]
+Oct 11 05:09:45 web-prod-01 sshd[20375]: Invalid user pi from 198.51.100.77 port 61287
+Oct 11 05:09:45 web-prod-01 sshd[20375]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:09:45 web-prod-01 sshd[20375]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:09:47 web-prod-01 sshd[20375]: Failed password for invalid user pi from 198.51.100.77 port 61287 ssh2
+Oct 11 05:09:47 web-prod-01 sshd[20375]: Connection closed by invalid user pi 198.51.100.77 port 61287 [preauth]
+Oct 11 05:10:02 web-prod-01 sshd[20376]: Invalid user test from 198.51.100.77 port 30879
+Oct 11 05:10:02 web-prod-01 sshd[20376]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:10:02 web-prod-01 sshd[20376]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:10:04 web-prod-01 sshd[20376]: Failed password for invalid user test from 198.51.100.77 port 30879 ssh2
+Oct 11 05:10:06 web-prod-01 sshd[20376]: Failed password for invalid user test from 198.51.100.77 port 30879 ssh2
+Oct 11 05:10:06 web-prod-01 sshd[20376]: Connection closed by invalid user test 198.51.100.77 port 30879 [preauth]
+Oct 11 05:10:25 web-prod-01 sshd[20381]: Invalid user pi from 198.51.100.77 port 59864
+Oct 11 05:10:25 web-prod-01 sshd[20381]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:10:25 web-prod-01 sshd[20381]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:10:27 web-prod-01 sshd[20381]: Failed password for invalid user pi from 198.51.100.77 port 59864 ssh2
+Oct 11 05:10:30 web-prod-01 sshd[20381]: Failed password for invalid user pi from 198.51.100.77 port 59864 ssh2
+Oct 11 05:10:30 web-prod-01 sshd[20381]: Connection closed by invalid user pi 198.51.100.77 port 59864 [preauth]
+Oct 11 05:10:47 web-prod-01 sshd[20387]: Invalid user oracle from 198.51.100.77 port 31734
+Oct 11 05:10:47 web-prod-01 sshd[20387]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:10:47 web-prod-01 sshd[20387]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:10:49 web-prod-01 sshd[20387]: Failed password for invalid user oracle from 198.51.100.77 port 31734 ssh2
+Oct 11 05:10:53 web-prod-01 sshd[20387]: Failed password for invalid user oracle from 198.51.100.77 port 31734 ssh2
+Oct 11 05:10:57 web-prod-01 sshd[20387]: Failed password for invalid user oracle from 198.51.100.77 port 31734 ssh2
+Oct 11 05:10:57 web-prod-01 sshd[20387]: Connection closed by invalid user oracle 198.51.100.77 port 31734 [preauth]
+Oct 11 05:11:10 web-prod-01 sshd[20391]: Invalid user hadoop from 198.51.100.77 port 32342
+Oct 11 05:11:10 web-prod-01 sshd[20391]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:11:10 web-prod-01 sshd[20391]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:11:12 web-prod-01 sshd[20391]: Failed password for invalid user hadoop from 198.51.100.77 port 32342 ssh2
+Oct 11 05:11:14 web-prod-01 sshd[20391]: Failed password for invalid user hadoop from 198.51.100.77 port 32342 ssh2
+Oct 11 05:11:14 web-prod-01 sshd[20391]: Connection closed by invalid user hadoop 198.51.100.77 port 32342 [preauth]
+Oct 11 05:11:32 web-prod-01 sshd[20396]: Invalid user hadoop from 198.51.100.77 port 42272
+Oct 11 05:11:32 web-prod-01 sshd[20396]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:11:32 web-prod-01 sshd[20396]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:11:34 web-prod-01 sshd[20396]: Failed password for invalid user hadoop from 198.51.100.77 port 42272 ssh2
+Oct 11 05:11:37 web-prod-01 sshd[20396]: Failed password for invalid user hadoop from 198.51.100.77 port 42272 ssh2
+Oct 11 05:11:41 web-prod-01 sshd[20396]: Failed password for invalid user hadoop from 198.51.100.77 port 42272 ssh2
+Oct 11 05:11:41 web-prod-01 sshd[20396]: Connection closed by invalid user hadoop 198.51.100.77 port 42272 [preauth]
+Oct 11 05:11:52 web-prod-01 sshd[20398]: Invalid user postgres from 198.51.100.77 port 60862
+Oct 11 05:11:52 web-prod-01 sshd[20398]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:11:52 web-prod-01 sshd[20398]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:11:54 web-prod-01 sshd[20398]: Failed password for invalid user postgres from 198.51.100.77 port 60862 ssh2
+Oct 11 05:11:58 web-prod-01 sshd[20398]: Failed password for invalid user postgres from 198.51.100.77 port 60862 ssh2
+Oct 11 05:12:01 web-prod-01 sshd[20398]: Failed password for invalid user postgres from 198.51.100.77 port 60862 ssh2
+Oct 11 05:12:01 web-prod-01 sshd[20398]: Connection closed by invalid user postgres 198.51.100.77 port 60862 [preauth]
+Oct 11 05:12:16 web-prod-01 sshd[20403]: Invalid user guest from 198.51.100.77 port 64551
+Oct 11 05:12:16 web-prod-01 sshd[20403]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:12:16 web-prod-01 sshd[20403]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:12:18 web-prod-01 sshd[20403]: Failed password for invalid user guest from 198.51.100.77 port 64551 ssh2
+Oct 11 05:12:21 web-prod-01 sshd[20403]: Failed password for invalid user guest from 198.51.100.77 port 64551 ssh2
+Oct 11 05:12:21 web-prod-01 sshd[20403]: Connection closed by invalid user guest 198.51.100.77 port 64551 [preauth]
+Oct 11 05:12:37 web-prod-01 sshd[20406]: Invalid user admin from 198.51.100.77 port 37159
+Oct 11 05:12:37 web-prod-01 sshd[20406]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:12:37 web-prod-01 sshd[20406]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:12:39 web-prod-01 sshd[20406]: Failed password for invalid user admin from 198.51.100.77 port 37159 ssh2
+Oct 11 05:12:39 web-prod-01 sshd[20406]: Connection closed by invalid user admin 198.51.100.77 port 37159 [preauth]
+Oct 11 05:12:54 web-prod-01 sshd[20413]: Invalid user git from 198.51.100.77 port 46100
+Oct 11 05:12:54 web-prod-01 sshd[20413]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:12:54 web-prod-01 sshd[20413]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:12:56 web-prod-01 sshd[20413]: Failed password for invalid user git from 198.51.100.77 port 46100 ssh2
+Oct 11 05:12:56 web-prod-01 sshd[20413]: Connection closed by invalid user git 198.51.100.77 port 46100 [preauth]
+Oct 11 05:13:06 web-prod-01 sshd[20415]: Invalid user git from 198.51.100.77 port 59057
+Oct 11 05:13:06 web-prod-01 sshd[20415]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 05:13:06 web-prod-01 sshd[20415]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.77
+Oct 11 05:13:08 web-prod-01 sshd[20415]: Failed password for invalid user git from 198.51.100.77 port 59057 ssh2
+Oct 11 05:13:10 web-prod-01 sshd[20415]: Failed password for invalid user git from 198.51.100.77 port 59057 ssh2
+Oct 11 05:13:10 web-prod-01 sshd[20415]: Connection closed by invalid user git 198.51.100.77 port 59057 [preauth]
+Oct 11 05:23:00 web-prod-01 CRON[20600]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 05:23:01 web-prod-01 CRON[20600]: pam_unix(cron:session): session closed for user root
+Oct 11 05:40:00 web-prod-01 CRON[20606]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 05:40:01 web-prod-01 CRON[20606]: pam_unix(cron:session): session closed for user root
+Oct 11 05:57:00 web-prod-01 CRON[20612]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 05:57:01 web-prod-01 CRON[20612]: pam_unix(cron:session): session closed for user root
+Oct 11 05:59:00 web-prod-01 sshd[20432]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.10  user=root
+Oct 11 05:59:02 web-prod-01 sshd[20432]: Failed password for root from 192.0.2.10 port 32302 ssh2
+Oct 11 05:59:02 web-prod-01 sshd[20432]: Connection closed by authenticating user root 192.0.2.10 port 32302 [preauth]
+Oct 11 06:14:00 web-prod-01 CRON[20617]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 06:14:01 web-prod-01 CRON[20617]: pam_unix(cron:session): session closed for user root
+Oct 11 06:31:00 web-prod-01 CRON[20619]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 06:31:01 web-prod-01 CRON[20619]: pam_unix(cron:session): session closed for user root
+Oct 11 06:48:00 web-prod-01 CRON[20624]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 06:48:01 web-prod-01 CRON[20624]: pam_unix(cron:session): session closed for user root
+Oct 11 06:49:00 web-prod-01 sshd[20434]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.10  user=root
+Oct 11 06:49:00 web-prod-01 sudo:     sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 11 06:49:00 web-prod-01 sshd[20912]: Connection closed by 203.0.113.66 port 49387 [preauth]
+Oct 11 06:49:00 web-prod-01 sshd[20918]: Received disconnect from 192.0.2.66 port 53120:11: Bye Bye [preauth]
+Oct 11 06:49:02 web-prod-01 sshd[20434]: Failed password for root from 192.0.2.10 port 44852 ssh2
+Oct 11 06:49:02 web-prod-01 sshd[20434]: Connection closed by authenticating user root 192.0.2.10 port 44852 [preauth]
+Oct 11 07:05:00 web-prod-01 CRON[20627]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 07:05:01 web-prod-01 CRON[20627]: pam_unix(cron:session): session closed for user root
+Oct 11 07:22:00 web-prod-01 CRON[20630]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 07:22:01 web-prod-01 CRON[20630]: pam_unix(cron:session): session closed for user root
+Oct 11 07:39:00 web-prod-01 CRON[20637]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 07:39:01 web-prod-01 CRON[20637]: pam_unix(cron:session): session closed for user root
+Oct 11 07:56:00 web-prod-01 CRON[20638]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 07:56:01 web-prod-01 CRON[20638]: pam_unix(cron:session): session closed for user root
+Oct 11 07:57:00 web-prod-01 sshd[20440]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.0.2.10  user=root
+Oct 11 07:57:02 web-prod-01 sshd[20440]: Failed password for root from 192.0.2.10 port 30720 ssh2
+Oct 11 07:57:02 web-prod-01 sshd[20440]: Connection closed by authenticating user root 192.0.2.10 port 30720 [preauth]
+Oct 11 08:13:00 web-prod-01 CRON[20644]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 08:13:01 web-prod-01 CRON[20644]: pam_unix(cron:session): session closed for user root
+Oct 11 08:30:00 web-prod-01 CRON[20649]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 08:30:01 web-prod-01 CRON[20649]: pam_unix(cron:session): session closed for user root
+Oct 11 08:47:00 web-prod-01 CRON[20654]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 08:47:01 web-prod-01 CRON[20654]: pam_unix(cron:session): session closed for user root
+Oct 11 08:55:00 web-prod-01 sshd[20490]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.4.22  user=sysadmin
+Oct 11 08:55:02 web-prod-01 sshd[20490]: Failed password for sysadmin from 10.0.4.22 port 47336 ssh2
+Oct 11 08:55:06 web-prod-01 sshd[20490]: Failed password for sysadmin from 10.0.4.22 port 47336 ssh2
+Oct 11 08:55:06 web-prod-01 sshd[20490]: Connection closed by authenticating user sysadmin 10.0.4.22 port 47336 [preauth]
+Oct 11 08:55:12 web-prod-01 sshd[20494]: Accepted password for sysadmin from 10.0.4.22 port 50544 ssh2
+Oct 11 09:03:00 web-prod-01 sshd[20495]: Accepted publickey for deploy from 10.0.4.30 port 41022 ssh2: ED25519 SHA256:q9Xk2b7Lr0aFhJ1nP4sT8vW3yZ6cE5dG2hK0mN7pQ1A
+Oct 11 09:04:00 web-prod-01 CRON[20657]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 09:04:01 web-prod-01 CRON[20657]: pam_unix(cron:session): session closed for user root
+Oct 11 09:20:00 web-prod-01 sudo:     sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 11 09:20:00 web-prod-01 sshd[20919]: Connection closed by 203.0.113.44 port 63923 [preauth]
+Oct 11 09:20:00 web-prod-01 sshd[20922]: Received disconnect from 192.0.2.66 port 53120:11: Bye Bye [preauth]
+Oct 11 09:21:00 web-prod-01 CRON[20661]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 09:21:01 web-prod-01 CRON[20661]: pam_unix(cron:session): session closed for user root
+Oct 11 09:30:00 web-prod-01 sshd[20445]: Invalid user admin from 203.0.113.200 port 62015
+Oct 11 09:30:00 web-prod-01 sshd[20445]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 09:30:00 web-prod-01 sshd[20445]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.200
+Oct 11 09:30:02 web-prod-01 sshd[20445]: Failed password for invalid user admin from 203.0.113.200 port 62015 ssh2
+Oct 11 09:30:06 web-prod-01 sshd[20445]: Failed password for invalid user admin from 203.0.113.200 port 62015 ssh2
+Oct 11 09:30:10 web-prod-01 sshd[20445]: Failed password for invalid user admin from 203.0.113.200 port 62015 ssh2
+Oct 11 09:30:10 web-prod-01 sshd[20445]: Connection closed by invalid user admin 203.0.113.200 port 62015 [preauth]
+Oct 11 09:38:00 web-prod-01 CRON[20668]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 09:38:01 web-prod-01 CRON[20668]: pam_unix(cron:session): session closed for user root
+Oct 11 09:55:00 web-prod-01 CRON[20669]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 09:55:01 web-prod-01 CRON[20669]: pam_unix(cron:session): session closed for user root
+Oct 11 10:12:00 web-prod-01 CRON[20672]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 10:12:01 web-prod-01 CRON[20672]: pam_unix(cron:session): session closed for user root
+Oct 11 10:29:00 web-prod-01 CRON[20677]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 10:29:01 web-prod-01 CRON[20677]: pam_unix(cron:session): session closed for user root
+Oct 11 10:46:00 web-prod-01 CRON[20682]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 10:46:01 web-prod-01 CRON[20682]: pam_unix(cron:session): session closed for user root
+Oct 11 11:00:00 web-prod-01 vsftpd[901]: pam_unix(vsftpd:auth): Failed password for ftp from 192.0.2.99
+Oct 11 11:01:00 web-prod-01 dovecot[902]: auth: Failed password for alice from 192.0.2.99 port 993
+Oct 11 11:03:00 web-prod-01 CRON[20684]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 11:03:01 web-prod-01 CRON[20684]: pam_unix(cron:session): session closed for user root
+Oct 11 11:20:00 web-prod-01 CRON[20691]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 11:20:01 web-prod-01 CRON[20691]: pam_unix(cron:session): session closed for user root
+Oct 11 11:37:00 web-prod-01 CRON[20694]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 11:37:01 web-prod-01 CRON[20694]: pam_unix(cron:session): session closed for user root
+Oct 11 11:54:00 web-prod-01 CRON[20701]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 11:54:01 web-prod-01 CRON[20701]: pam_unix(cron:session): session closed for user root
+Oct 11 12:03:00 web-prod-01 sshd[20500]: Accepted publickey for deploy from 10.0.4.30 port 41022 ssh2: ED25519 SHA256:q9Xk2b7Lr0aFhJ1nP4sT8vW3yZ6cE5dG2hK0mN7pQ1A
+Oct 11 12:11:00 web-prod-01 CRON[20704]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 12:11:01 web-prod-01 CRON[20704]: pam_unix(cron:session): session closed for user root
+Oct 11 12:28:00 web-prod-01 CRON[20711]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 12:28:01 web-prod-01 CRON[20711]: pam_unix(cron:session): session closed for user root
+Oct 11 12:45:00 web-prod-01 CRON[20718]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 12:45:01 web-prod-01 CRON[20718]: pam_unix(cron:session): session closed for user root
+Oct 11 12:49:00 web-prod-01 sudo:     sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 11 12:49:00 web-prod-01 sshd[20923]: Connection closed by 203.0.113.228 port 51459 [preauth]
+Oct 11 12:49:00 web-prod-01 sshd[20929]: Received disconnect from 192.0.2.66 port 53120:11: Bye Bye [preauth]
+Oct 11 13:02:00 web-prod-01 CRON[20720]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 13:02:01 web-prod-01 CRON[20720]: pam_unix(cron:session): session closed for user root
+Oct 11 13:19:00 web-prod-01 CRON[20727]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 13:19:01 web-prod-01 CRON[20727]: pam_unix(cron:session): session closed for user root
+Oct 11 13:36:00 web-prod-01 CRON[20734]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 13:36:01 web-prod-01 CRON[20734]: pam_unix(cron:session): session closed for user root
+Oct 11 13:53:00 web-prod-01 CRON[20737]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 13:53:01 web-prod-01 CRON[20737]: pam_unix(cron:session): session closed for user root
+Oct 11 14:10:00 web-prod-01 CRON[20741]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 14:10:01 web-prod-01 CRON[20741]: pam_unix(cron:session): session closed for user root
+Oct 11 14:27:00 web-prod-01 CRON[20747]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 14:27:01 web-prod-01 CRON[20747]: pam_unix(cron:session): session closed for user root
+Oct 11 14:41:00 web-prod-01 sshd[20446]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.9  user=root
+Oct 11 14:41:02 web-prod-01 sshd[20446]: Failed password for root from 198.51.100.9 port 43117 ssh2
+Oct 11 14:41:04 web-prod-01 sshd[20446]: Failed password for root from 198.51.100.9 port 43117 ssh2
+Oct 11 14:41:08 web-prod-01 sshd[20446]: Failed password for root from 198.51.100.9 port 43117 ssh2
+Oct 11 14:41:11 web-prod-01 sshd[20446]: Failed password for root from 198.51.100.9 port 43117 ssh2
+Oct 11 14:41:15 web-prod-01 sshd[20446]: Failed password for root from 198.51.100.9 port 43117 ssh2
+Oct 11 14:41:15 web-prod-01 sshd[20446]: Connection closed by authenticating user root 198.51.100.9 port 43117 [preauth]
+Oct 11 14:41:22 web-prod-01 sshd[20449]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.9  user=root
+Oct 11 14:41:24 web-prod-01 sshd[20449]: Failed password for root from 198.51.100.9 port 47784 ssh2
+Oct 11 14:41:27 web-prod-01 sshd[20449]: Failed password for root from 198.51.100.9 port 47784 ssh2
+Oct 11 14:41:31 web-prod-01 sshd[20449]: Failed password for root from 198.51.100.9 port 47784 ssh2
+Oct 11 14:41:34 web-prod-01 sshd[20449]: Failed password for root from 198.51.100.9 port 47784 ssh2
+Oct 11 14:41:37 web-prod-01 sshd[20449]: Failed password for root from 198.51.100.9 port 47784 ssh2
+Oct 11 14:41:37 web-prod-01 sshd[20449]: Connection closed by authenticating user root 198.51.100.9 port 47784 [preauth]
+Oct 11 14:41:43 web-prod-01 sshd[20453]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.9  user=root
+Oct 11 14:41:45 web-prod-01 sshd[20453]: Failed password for root from 198.51.100.9 port 48723 ssh2
+Oct 11 14:41:47 web-prod-01 sshd[20453]: Failed password for root from 198.51.100.9 port 48723 ssh2
+Oct 11 14:41:49 web-prod-01 sshd[20453]: Failed password for root from 198.51.100.9 port 48723 ssh2
+Oct 11 14:41:51 web-prod-01 sshd[20453]: Failed password for root from 198.51.100.9 port 48723 ssh2
+Oct 11 14:41:53 web-prod-01 sshd[20453]: Failed password for root from 198.51.100.9 port 48723 ssh2
+Oct 11 14:41:53 web-prod-01 sshd[20453]: Connection closed by authenticating user root 198.51.100.9 port 48723 [preauth]
+Oct 11 14:42:02 web-prod-01 sshd[20459]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.9  user=root
+Oct 11 14:42:04 web-prod-01 sshd[20459]: Failed password for root from 198.51.100.9 port 48135 ssh2
+Oct 11 14:42:06 web-prod-01 sshd[20459]: Failed password for root from 198.51.100.9 port 48135 ssh2
+Oct 11 14:42:10 web-prod-01 sshd[20459]: Failed password for root from 198.51.100.9 port 48135 ssh2
+Oct 11 14:42:12 web-prod-01 sshd[20459]: Failed password for root from 198.51.100.9 port 48135 ssh2
+Oct 11 14:42:14 web-prod-01 sshd[20459]: Failed password for root from 198.51.100.9 port 48135 ssh2
+Oct 11 14:42:14 web-prod-01 sshd[20459]: Connection closed by authenticating user root 198.51.100.9 port 48135 [preauth]
+Oct 11 14:42:21 web-prod-01 sshd[20465]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.9  user=root
+Oct 11 14:42:23 web-prod-01 sshd[20465]: Failed password for root from 198.51.100.9 port 41218 ssh2
+Oct 11 14:42:25 web-prod-01 sshd[20465]: Failed password for root from 198.51.100.9 port 41218 ssh2
+Oct 11 14:42:29 web-prod-01 sshd[20465]: Failed password for root from 198.51.100.9 port 41218 ssh2
+Oct 11 14:42:31 web-prod-01 sshd[20465]: Failed password for root from 198.51.100.9 port 41218 ssh2
+Oct 11 14:42:34 web-prod-01 sshd[20465]: Failed password for root from 198.51.100.9 port 41218 ssh2
+Oct 11 14:42:34 web-prod-01 sshd[20465]: Connection closed by authenticating user root 198.51.100.9 port 41218 [preauth]
+Oct 11 14:42:49 web-prod-01 sshd[20468]: Accepted password for root from 198.51.100.9 port 44122 ssh2
+Oct 11 14:42:49 web-prod-01 sshd[20468]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 14:42:49 web-prod-01 systemd-logind[612]: New session 4711 of user root.
+Oct 11 14:44:00 web-prod-01 CRON[20752]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 14:44:01 web-prod-01 CRON[20752]: pam_unix(cron:session): session closed for user root
+Oct 11 15:01:00 web-prod-01 CRON[20758]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 15:01:01 web-prod-01 CRON[20758]: pam_unix(cron:session): session closed for user root
+Oct 11 15:03:00 web-prod-01 sudo:     sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 11 15:03:00 web-prod-01 sshd[20935]: Connection closed by 203.0.113.39 port 35947 [preauth]
+Oct 11 15:03:00 web-prod-01 sshd[20941]: Received disconnect from 192.0.2.66 port 53120:11: Bye Bye [preauth]
+Oct 11 15:18:00 web-prod-01 CRON[20760]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 15:18:01 web-prod-01 CRON[20760]: pam_unix(cron:session): session closed for user root
+Oct 11 15:35:00 web-prod-01 CRON[20767]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 15:35:01 web-prod-01 CRON[20767]: pam_unix(cron:session): session closed for user root
+Oct 11 15:52:00 web-prod-01 CRON[20773]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 15:52:01 web-prod-01 CRON[20773]: pam_unix(cron:session): session closed for user root
+Oct 11 16:03:00 web-prod-01 sshd[20505]: Accepted publickey for deploy from 10.0.4.30 port 41022 ssh2: ED25519 SHA256:q9Xk2b7Lr0aFhJ1nP4sT8vW3yZ6cE5dG2hK0mN7pQ1A
+Oct 11 16:09:00 web-prod-01 CRON[20776]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 16:09:01 web-prod-01 CRON[20776]: pam_unix(cron:session): session closed for user root
+Oct 11 16:26:00 web-prod-01 CRON[20778]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 16:26:01 web-prod-01 CRON[20778]: pam_unix(cron:session): session closed for user root
+Oct 11 16:43:00 web-prod-01 CRON[20781]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 16:43:01 web-prod-01 CRON[20781]: pam_unix(cron:session): session closed for user root
+Oct 11 17:00:00 web-prod-01 CRON[20788]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 17:00:01 web-prod-01 CRON[20788]: pam_unix(cron:session): session closed for user root
+Oct 11 17:17:00 web-prod-01 CRON[20791]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 17:17:01 web-prod-01 CRON[20791]: pam_unix(cron:session): session closed for user root
+Oct 11 17:34:00 web-prod-01 CRON[20796]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 17:34:01 web-prod-01 CRON[20796]: pam_unix(cron:session): session closed for user root
+Oct 11 17:51:00 web-prod-01 CRON[20801]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 17:51:01 web-prod-01 CRON[20801]: pam_unix(cron:session): session closed for user root
+Oct 11 18:05:00 web-prod-01 sshd[20475]: Invalid user ubuntu from 2001:db8::bad:1 port 34991
+Oct 11 18:05:00 web-prod-01 sshd[20475]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 18:05:00 web-prod-01 sshd[20475]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2001:db8::bad:1
+Oct 11 18:05:02 web-prod-01 sshd[20475]: Failed password for invalid user ubuntu from 2001:db8::bad:1 port 34991 ssh2
+Oct 11 18:05:04 web-prod-01 sshd[20475]: Failed password for invalid user ubuntu from 2001:db8::bad:1 port 34991 ssh2
+Oct 11 18:05:08 web-prod-01 sshd[20475]: Failed password for invalid user ubuntu from 2001:db8::bad:1 port 34991 ssh2
+Oct 11 18:05:08 web-prod-01 sshd[20475]: Connection closed by invalid user ubuntu 2001:db8::bad:1 port 34991 [preauth]
+Oct 11 18:05:38 web-prod-01 sshd[20478]: Invalid user ubuntu from 2001:db8::bad:1 port 64212
+Oct 11 18:05:38 web-prod-01 sshd[20478]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 18:05:38 web-prod-01 sshd[20478]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2001:db8::bad:1
+Oct 11 18:05:40 web-prod-01 sshd[20478]: Failed password for invalid user ubuntu from 2001:db8::bad:1 port 64212 ssh2
+Oct 11 18:05:43 web-prod-01 sshd[20478]: Failed password for invalid user ubuntu from 2001:db8::bad:1 port 64212 ssh2
+Oct 11 18:05:46 web-prod-01 sshd[20478]: Failed password for invalid user ubuntu from 2001:db8::bad:1 port 64212 ssh2
+Oct 11 18:05:46 web-prod-01 sshd[20478]: Connection closed by invalid user ubuntu 2001:db8::bad:1 port 64212 [preauth]
+Oct 11 18:06:16 web-prod-01 sshd[20482]: Invalid user ubuntu from 2001:db8::bad:1 port 31567
+Oct 11 18:06:16 web-prod-01 sshd[20482]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 18:06:16 web-prod-01 sshd[20482]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2001:db8::bad:1
+Oct 11 18:06:18 web-prod-01 sshd[20482]: Failed password for invalid user ubuntu from 2001:db8::bad:1 port 31567 ssh2
+Oct 11 18:06:21 web-prod-01 sshd[20482]: Failed password for invalid user ubuntu from 2001:db8::bad:1 port 31567 ssh2
+Oct 11 18:06:25 web-prod-01 sshd[20482]: Failed password for invalid user ubuntu from 2001:db8::bad:1 port 31567 ssh2
+Oct 11 18:06:25 web-prod-01 sshd[20482]: Connection closed by invalid user ubuntu 2001:db8::bad:1 port 31567 [preauth]
+Oct 11 18:06:55 web-prod-01 sshd[20484]: Invalid user ubuntu from 2001:db8::bad:1 port 48068
+Oct 11 18:06:55 web-prod-01 sshd[20484]: pam_unix(sshd:auth): check pass; user unknown
+Oct 11 18:06:55 web-prod-01 sshd[20484]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=2001:db8::bad:1
+Oct 11 18:06:57 web-prod-01 sshd[20484]: Failed password for invalid user ubuntu from 2001:db8::bad:1 port 48068 ssh2
+Oct 11 18:07:00 web-prod-01 sshd[20484]: Failed password for invalid user ubuntu from 2001:db8::bad:1 port 48068 ssh2
+Oct 11 18:07:03 web-prod-01 sshd[20484]: Failed password for invalid user ubuntu from 2001:db8::bad:1 port 48068 ssh2
+Oct 11 18:07:03 web-prod-01 sshd[20484]: Connection closed by invalid user ubuntu 2001:db8::bad:1 port 48068 [preauth]
+Oct 11 18:08:00 web-prod-01 CRON[20802]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 18:08:01 web-prod-01 CRON[20802]: pam_unix(cron:session): session closed for user root
+Oct 11 18:25:00 web-prod-01 CRON[20809]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 18:25:01 web-prod-01 CRON[20809]: pam_unix(cron:session): session closed for user root
+Oct 11 18:32:00 web-prod-01 sudo:     sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 11 18:32:00 web-prod-01 sshd[20943]: Connection closed by 203.0.113.250 port 62743 [preauth]
+Oct 11 18:32:00 web-prod-01 sshd[20945]: Received disconnect from 192.0.2.66 port 53120:11: Bye Bye [preauth]
+Oct 11 18:42:00 web-prod-01 CRON[20812]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 18:42:01 web-prod-01 CRON[20812]: pam_unix(cron:session): session closed for user root
+Oct 11 18:59:00 web-prod-01 CRON[20816]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 18:59:01 web-prod-01 CRON[20816]: pam_unix(cron:session): session closed for user root
+Oct 11 19:16:00 web-prod-01 CRON[20823]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 19:16:01 web-prod-01 CRON[20823]: pam_unix(cron:session): session closed for user root
+Oct 11 19:33:00 web-prod-01 CRON[20825]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 19:33:01 web-prod-01 CRON[20825]: pam_unix(cron:session): session closed for user root
+Oct 11 19:50:00 web-prod-01 CRON[20832]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 19:50:01 web-prod-01 CRON[20832]: pam_unix(cron:session): session closed for user root
+Oct 11 20:07:00 web-prod-01 CRON[20839]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 20:07:01 web-prod-01 CRON[20839]: pam_unix(cron:session): session closed for user root
+Oct 11 20:24:00 web-prod-01 CRON[20845]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 20:24:01 web-prod-01 CRON[20845]: pam_unix(cron:session): session closed for user root
+Oct 11 20:41:00 web-prod-01 CRON[20850]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 20:41:01 web-prod-01 CRON[20850]: pam_unix(cron:session): session closed for user root
+Oct 11 20:58:00 web-prod-01 CRON[20853]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 20:58:01 web-prod-01 CRON[20853]: pam_unix(cron:session): session closed for user root
+Oct 11 21:15:00 web-prod-01 CRON[20859]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 21:15:01 web-prod-01 CRON[20859]: pam_unix(cron:session): session closed for user root
+Oct 11 21:32:00 web-prod-01 CRON[20863]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 21:32:01 web-prod-01 CRON[20863]: pam_unix(cron:session): session closed for user root
+Oct 11 21:45:00 web-prod-01 sudo:     sysadmin : TTY=pts/0 ; PWD=/home/sysadmin ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 11 21:45:00 web-prod-01 sshd[20952]: Connection closed by 203.0.113.143 port 54451 [preauth]
+Oct 11 21:45:00 web-prod-01 sshd[20956]: Received disconnect from 192.0.2.66 port 53120:11: Bye Bye [preauth]
+Oct 11 21:49:00 web-prod-01 CRON[20868]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 21:49:01 web-prod-01 CRON[20868]: pam_unix(cron:session): session closed for user root
+Oct 11 22:06:00 web-prod-01 CRON[20872]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 22:06:01 web-prod-01 CRON[20872]: pam_unix(cron:session): session closed for user root
+Oct 11 22:23:00 web-prod-01 CRON[20874]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 22:23:01 web-prod-01 CRON[20874]: pam_unix(cron:session): session closed for user root
+Oct 11 22:40:00 web-prod-01 CRON[20876]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 22:40:01 web-prod-01 CRON[20876]: pam_unix(cron:session): session closed for user root
+Oct 11 22:57:00 web-prod-01 CRON[20882]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 22:57:01 web-prod-01 CRON[20882]: pam_unix(cron:session): session closed for user root
+Oct 11 23:14:00 web-prod-01 CRON[20884]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 23:14:01 web-prod-01 CRON[20884]: pam_unix(cron:session): session closed for user root
+Oct 11 23:31:00 web-prod-01 CRON[20887]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 23:31:01 web-prod-01 CRON[20887]: pam_unix(cron:session): session closed for user root
+Oct 11 23:48:00 web-prod-01 CRON[20890]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 23:48:01 web-prod-01 CRON[20890]: pam_unix(cron:session): session closed for user root

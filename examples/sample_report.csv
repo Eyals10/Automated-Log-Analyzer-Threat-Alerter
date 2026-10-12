@@ -1,0 +1,6 @@
+severity,ip,failed_attempts,invalid_user_attempts,unique_usernames,top_usernames,first_seen,last_seen,flagged_at,successful_logins_after_flag,country,country_code,asn,org
+CRITICAL,198.51.100.9,25,0,1,root(25),2026-10-11T14:41:02,2026-10-11T14:42:34,2026-10-11T14:41:15,1,Private/Reserved,,,
+HIGH,203.0.113.45,360,0,1,root(360),2026-10-11T02:13:02,2026-10-11T02:47:54,2026-10-11T02:13:16,0,Private/Reserved,,,
+HIGH,198.51.100.77,91,40,14,"postgres(15), hadoop(12), minecraft(10), user(8), pi(8)",2026-10-11T05:02:00,2026-10-11T05:13:10,2026-10-11T05:02:27,0,Private/Reserved,,,
+MEDIUM,2001:db8::bad:1,12,4,1,ubuntu(12),2026-10-11T18:05:00,2026-10-11T18:07:03,2026-10-11T18:05:43,0,Private/Reserved,,,
+MEDIUM,192.0.2.10,8,0,1,root(8),2026-10-11T01:00:02,2026-10-11T07:57:02,2026-10-11T05:06:02,0,Private/Reserved,,,

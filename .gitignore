@@ -1,0 +1,14 @@
+# Generated reports
+reports/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# GeoIP databases (large, licensed separately)
+*.mmdb
+
+# Secrets
+.env
